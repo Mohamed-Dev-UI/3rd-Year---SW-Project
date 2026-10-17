@@ -2,12 +2,22 @@
 <sim-project version="15.21" multi-file="no" uid="simp6885ffa8af5f4725b7244e5d75c22a38" creation-date="10/17/2026 11:41:19">
   <meta>
     <name>SW Porject</name>
-    <authors>mohamed gamal khalil, mohamed foad, mohamed reda, mohamed hossam</authors>
+    <authors>mohamed gamal</authors>
     <description />
   </meta>
   <counters models="1">
-    <entity-names />
-    <entity-ids />
+    <entity-names>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
@@ -15,14 +25,25 @@
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
-        <value>1</value>
+        <value>2</value>
       </counter>
     </diagrams>
     <fields />
   </counters>
   <alias-groups />
   <management uid="md-67ac63b8f761454d8d97dfb1166a9b0b" name="" task-id-sequence="0">
+    <working-schedule uid="ws-f42cdfd22e2745699211becacbea3a06" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
     <persons>
+      <person id="">
+        <first-name>mohamed</first-name>
+        <last-name>gamal</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-a23df515504043a8a3c1176c0948acff" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
       <person id="">
         <first-name>mohamed</first-name>
         <last-name>gamal</last-name>
@@ -52,7 +73,7 @@
   </types>
   <items />
   <models>
-    <model id="pd74e54128f0941a3b086d1d59f2c68bc_338243315" name="Model1" namespace="" order-index="1">
+    <model id="pd74e54128f0941a3b086d1d59f2c68bc_338243315" name="Profile &amp; Accounts" namespace="" order-index="1">
       <meta>
         <authors>
           <author> </author>
@@ -65,7 +86,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-usecase" id="p14cf506cee3745709a8013de89c29693_343439973" name="UseCaseDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="uml-usecase" id="p14cf506cee3745709a8013de89c29693_343439973" name="UseCaseDiagram1" order-index="1" thumbnail-color="#FF0000FF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -77,14 +98,14 @@
           </authors>
           <description />
           <creation-date>10/17/2026 11:43:08</creation-date>
-          <change-date>10/17/2026 11:43:08</change-date>
+          <change-date>10/17/2026 12:29:35</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items />
         <layer id="d08e5b08be3e402bb26328aee87077f7" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
-      <diagram type="uml-sequence" id="p16fe211a9f6d40b9bc271feafc7a214e_128515060" name="SequenceDiagram1" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="uml-sequence" id="p80364d909f0947c09018bcdf6e2211d1_774575586" name="SequenceDiagram1" order-index="3" overview-order-index="0" thumbnail-color="#FF00FFFF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -95,13 +116,193 @@
             <author> </author>
           </authors>
           <description />
-          <creation-date>10/17/2026 11:55:34</creation-date>
-          <change-date>10/17/2026 11:55:34</change-date>
+          <creation-date>10/17/2026 12:13:14</creation-date>
+          <change-date>10/17/2026 12:13:14</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items />
-        <layer id="5d0683233bf9409c93e37741e1348f82" name="Default" visible="true" enabled="true" locked="false" />
+        <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+    <model id="pce25da0e26394769b7459475c88181b8_690565533" name="Authentication &amp; Onboarding" namespace="" order-index="0">
+      <meta>
+        <authors>
+          <author />
+        </authors>
+        <description />
+        <creation-date>10/17/2026 11:43:08</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p8dab1c26f17a4e40859e27604a89c7b7_998642438" name="UseCaseDiagram1" order-index="1" thumbnail-color="#FF0000FF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>10/17/2026 11:43:08</creation-date>
+          <change-date>10/17/2026 12:13:38</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di1ef294a0b67f4140ba5234e6c5b241263714" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC002" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
+          <item id="di1ef294a0b67f4140ba5234e6c5b241263714" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC002" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
+        </abstract-items>
+        <layer id="d08e5b08be3e402bb26328aee87077f7" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di1ef294a0b67f4140ba5234e6c5b241263714" iid="607291e566dd42b7aa7ca5ac48e042e9" creation-date="10/17/2026 12:13:38" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="740" ay="250" awidth="50" aheight="100" x="739" y="250" width="50" height="120" />
+            <actor />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-sequence" id="p65502ddd54b14c6f9b4be94a0652e922_751339385" name="SequenceDiagram1" order-index="2" overview-order-index="0" thumbnail-color="#FF00FFFF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>10/17/2026 12:13:14</creation-date>
+          <change-date>10/17/2026 12:13:14</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+    <model id="p2b085f78b68049b99c7371be703c639d_951771239" name="Discovery &amp; Viewing" namespace="" order-index="0">
+      <meta>
+        <authors>
+          <author />
+        </authors>
+        <description />
+        <creation-date>10/17/2026 11:43:08</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="padb4a84e37224f0c89b3a49323fcdecb_398104667" name="UseCaseDiagram1" order-index="1" thumbnail-color="#FF0000FF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>10/17/2026 11:43:08</creation-date>
+          <change-date>10/17/2026 12:13:38</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di27b411332fa74bc4872a123439dbe3c29659" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC003" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
+          <item id="di27b411332fa74bc4872a123439dbe3c29659" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC003" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
+        </abstract-items>
+        <layer id="d08e5b08be3e402bb26328aee87077f7" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di27b411332fa74bc4872a123439dbe3c29659" iid="0281871fb9b74e7191f26b4a362ab4fa" creation-date="10/17/2026 12:13:38" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="740" ay="250" awidth="50" aheight="100" x="739" y="250" width="50" height="120" />
+            <actor />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-sequence" id="p71374fda435c44fdaf87712df3e2b7c7_362181353" name="SequenceDiagram1" order-index="2" overview-order-index="0" thumbnail-color="#FF00FFFF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>10/17/2026 12:13:14</creation-date>
+          <change-date>10/17/2026 12:13:14</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+    <model id="p07835ed73e40452690a2a63e826bb07d_202669881" name="Download &amp; Material Actions" namespace="" order-index="0">
+      <meta>
+        <authors>
+          <author />
+        </authors>
+        <description />
+        <creation-date>10/17/2026 11:43:08</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p5e71d818605c4ca0b9d637ae231305b5_742850102" name="UseCaseDiagram1" order-index="1" thumbnail-color="#FF0000FF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>10/17/2026 11:43:08</creation-date>
+          <change-date>10/17/2026 12:13:38</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di7aefed8cacd44426a224aa1763222fdb4111" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC004" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
+          <item id="di7aefed8cacd44426a224aa1763222fdb4111" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC004" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
+        </abstract-items>
+        <layer id="d08e5b08be3e402bb26328aee87077f7" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di7aefed8cacd44426a224aa1763222fdb4111" iid="254d71453b88430ba19db35d7fa8b903" creation-date="10/17/2026 12:13:38" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="740" ay="250" awidth="50" aheight="100" x="739" y="250" width="50" height="120" />
+            <actor />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-sequence" id="p4692c4a1882b44b9a35f87c96f148c6f_436403083" name="SequenceDiagram1" order-index="2" overview-order-index="0" thumbnail-color="#FF00FFFF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>10/17/2026 12:13:14</creation-date>
+          <change-date>10/17/2026 12:13:14</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
     </model>
   </models>
