@@ -33,7 +33,7 @@
       </counter>
       <counter>
         <item-type type-id="sequence-action" type="Message" />
-        <value>14</value>
+        <value>16</value>
       </counter>
       <counter>
         <item-type type-id="element-detail" type="Element Detail" />
@@ -59,7 +59,7 @@
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
-        <value>41</value>
+        <value>43</value>
       </counter>
       <counter>
         <item-type type-id="extend" type="Entend" />
@@ -79,7 +79,7 @@
       </counter>
       <counter>
         <item-type type-id="sequence-action" type="Message" />
-        <value>15</value>
+        <value>17</value>
       </counter>
       <counter>
         <item-type type-id="element-detail" type="Element Detail" />
@@ -91,7 +91,7 @@
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>4</value>
+        <value>5</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -186,6 +186,7 @@
       <parameters />
       <types>
         <type id="Class:e8e5f667b754454a99d7f355f791000f" name="Database" class-ref="e8e5f667b754454a99d7f355f791000f" />
+        <type id="Class:c991806912ab40f7aa40feab21a4fa32" name="Database" class-ref="c991806912ab40f7aa40feab21a4fa32" />
         <type id="Class:7faf59ce3c584369931a4c1653d836ec" name="AppUI" class-ref="7faf59ce3c584369931a4c1653d836ec" />
         <type id="Class:2eb1553bc76549a2901a1e5202d81814" name="AppUI" class-ref="2eb1553bc76549a2901a1e5202d81814" />
         <type id="Class:67bfc82614804021870cc258c034d85f" name="Server" class-ref="67bfc82614804021870cc258c034d85f" />
@@ -193,7 +194,11 @@
     </custom-types>
   </types>
   <items>
+    <item id="c991806912ab40f7aa40feab21a4fa32" cid="C004" type="class" name="Database" creator="" creation-date="10/18/2026 18:46:04" />
     <item id="a81f8693f4714810a9a1ca0a65f12851" cid="PROP022" type="property" owner="ad2e77ee5a9a435dbd0d1dd49c149745" creator="" creation-date="10/17/2026 19:27:37" visibility="private" />
+    <item id="a8fc5e924897433987f4b21e687d2a72" cid="PROP041" type="property" name="server" creator="" creation-date="10/18/2026 18:45:49">
+      <structural-feature type="Server" type-id="Class:67bfc82614804021870cc258c034d85f" />
+    </item>
     <item id="7159cfdd4c36431380f14c1f9d972c66" cid="PROP035" type="property" owner="47e7f780b11f4a4db1b4a7920498f39e" creator="" creation-date="10/17/2026 20:52:12" visibility="private" />
     <item id="7d2325f589fc49489198b9a48c9b60e6" cid="PROP021" type="property" owner="ad2e77ee5a9a435dbd0d1dd49c149745" creator="" creation-date="10/17/2026 19:27:37" visibility="private" />
     <item id="2eb1553bc76549a2901a1e5202d81814" cid="C003" type="class" name="AppUI" creator="" creation-date="10/18/2026 18:08:28" />
@@ -206,6 +211,9 @@
     <item id="7fd2f853155c4e428ba1f20feb433f18" cid="PROP011" type="property" owner="621e900ac79744a3a989a28e9eef8b91" creator="" creation-date="10/17/2026 19:26:32" visibility="private" />
     <item id="0a5b3cb542384a15b67593fc9a066170" cid="PROP014" type="property" owner="fc8112091dea4c0da18c9e8475ab41e7" creator="" creation-date="10/17/2026 19:26:45" visibility="private" />
     <item id="d8516acc386d4b009fe306a0b858ceb6" cid="PROP032" type="property" owner="c350856ae98d436dbd1d3a3008c8de00" creator="" creation-date="10/17/2026 19:28:28" visibility="private" />
+    <item id="b3b752809ee94ee5b71c0ccdc9e009e2" cid="PROP042" type="property" name="db" creator="" creation-date="10/18/2026 18:46:04">
+      <structural-feature type="Database" type-id="Class:c991806912ab40f7aa40feab21a4fa32" />
+    </item>
     <item id="04bf861670b343aaa560a0f942f2a917" cid="PROP013" type="property" owner="fc8112091dea4c0da18c9e8475ab41e7" creator="" creation-date="10/17/2026 19:26:45" visibility="private" />
   </items>
   <models>
@@ -527,7 +535,7 @@
           </authors>
           <description />
           <creation-date>10/17/2026 12:13:14</creation-date>
-          <change-date>10/18/2026 18:06:53</change-date>
+          <change-date>10/18/2026 18:48:02</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -560,9 +568,9 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="c570a61cfa9b458d80bbb22f6d80080f" cid="LL003" type="lifeline" name="Database" creator="" creation-date="10/18/2026 17:39:05" visibility="undefined">
+          <item id="c570a61cfa9b458d80bbb22f6d80080f" cid="LL003" type="lifeline" name="db" creator="" creation-date="10/18/2026 17:39:05" visibility="undefined">
             <owned-items />
-            <lifeline classifier-name="" selector="" is-multi-object="false" />
+            <lifeline classifier-name="Database" classifier-ref="b3b752809ee94ee5b71c0ccdc9e009e2" selector="" is-multi-object="false" />
           </item>
           <item id="29a8fabff0b140238d3b9d8b03fa384e" cid="SM011" type="sequence-action" name="Message11" creator="" creation-date="10/18/2026 17:53:29" from="1f524d875e8d4fa08d24bb3f28352b2c" to="b620a9c1c9d44b1aa0f310857033f8c0" visibility="package">
             <sequence-action type="reply" message="5.Return results or empty list" is-asynchronous="false" return-value="" assign-to-variable="">
@@ -574,9 +582,19 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="d84467b76fd64d42b39629a455dda6ae" cid="LL002" type="lifeline" name="Server" creator="" creation-date="10/18/2026 17:38:50" visibility="undefined">
+          <item id="9fdc1b8874494e5e91b10510f03f91b8" cid="SM016" type="sequence-action" name="Message16" creator="" creation-date="10/18/2026 18:48:00" from="890d4e0703a646a2beaed1dd5a6bbe7e" to="033880967ce84f54a52d65041e4ecd9b" visibility="package">
+            <sequence-action type="reply" message="7.Show message &quot;No materials found&quot;" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="eaa04522ba99426cb3955f80e692333a" cid="SM015" type="sequence-action" name="Message15" creator="" creation-date="10/18/2026 18:46:46" from="f30d4df99a1e4e75af51b84fde7b823e" to="cdabc3b4c0cc4a9b9088d1938070d031" visibility="package">
+            <sequence-action type="reply" message="6.Display results(download materials at top)" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="d84467b76fd64d42b39629a455dda6ae" cid="LL002" type="lifeline" name="server" creator="" creation-date="10/18/2026 17:38:50" visibility="undefined">
             <owned-items />
-            <lifeline classifier-name="" selector="" is-multi-object="false" />
+            <lifeline classifier-name="Server" classifier-ref="a8fc5e924897433987f4b21e687d2a72" selector="" is-multi-object="false" />
           </item>
           <item id="9432cfceac074b0c96b6d8351905a01c" cid="ES001" type="activation-bar" name="ExecutionSpecification1" owner="207bd6b7bc8340c0974b250582e9c578" creator="" creation-date="10/18/2026 17:40:33" visibility="undefined" />
           <item id="207bd6b7bc8340c0974b250582e9c578" cid="AC008" type="actor" name="User" creator="" creation-date="10/18/2026 17:36:54" visibility="undefined">
@@ -628,7 +646,7 @@
             </layout>
           </item>
           <item id="033880967ce84f54a52d65041e4ecd9b" iid="10676f34fef84e6193e11ca22d56c279" container="207bd6b7bc8340c0974b250582e9c578" container-iid="46387e634f064bfca1da1fd22c1d9aad" creation-date="10/18/2026 17:42:59" order-index="12" type="entity">
-            <layout ax="274" ay="364" awidth="20" aheight="50" x="274" y="364" width="20" height="50" expanded="274,364,20,50" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="274" ay="354" awidth="20" aheight="50" x="274" y="354" width="20" height="50" expanded="274,354,20,50" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
@@ -710,6 +728,26 @@
               </points>
             </layout>
             <relation from="1f524d875e8d4fa08d24bb3f28352b2c" from-iid="8a453d4379724a7c88db183a4b4d8628" to="b620a9c1c9d44b1aa0f310857033f8c0" to-iid="427328d995d2484e8d67511247dabfb6" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="eaa04522ba99426cb3955f80e692333a" iid="1bb270ee9d9a4598bf6d56ac699a3ec0" creation-date="10/18/2026 18:46:46" order-index="18" type="relation">
+            <layout message-x="398" message-y="309" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="487" y1="275" x2="294" y2="275" start-border-pos="0.999" end-border-pos="0.251" start-local-pos="0" end-local-pos="0" name-position="8,34">
+              <points>
+                <point x="487" y="275" />
+                <point x="294" y="275" />
+              </points>
+            </layout>
+            <relation from="f30d4df99a1e4e75af51b84fde7b823e" from-iid="d1561026fa414e04a40b663c35c2a9c1" to="cdabc3b4c0cc4a9b9088d1938070d031" to-iid="85ec18ee70574757ab04b838ace9dd79" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="9fdc1b8874494e5e91b10510f03f91b8" iid="d1f74efe052849ceac70220aff845bb7" creation-date="10/18/2026 18:48:00" order-index="19" type="relation">
+            <layout message-x="390" message-y="384" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="487" y1="364" x2="294" y2="364" start-border-pos="0.95" end-border-pos="0.3" start-local-pos="10" end-local-pos="10" name-position="0,20">
+              <points>
+                <point x="487" y="364" />
+                <point x="294" y="364" />
+              </points>
+            </layout>
+            <relation from="890d4e0703a646a2beaed1dd5a6bbe7e" from-iid="9a4a29792c0548099fbc316137ec37ab" to="033880967ce84f54a52d65041e4ecd9b" to-iid="10676f34fef84e6193e11ca22d56c279" />
             <sequence-action show-sequence-number="false" />
           </item>
         </layer>
