@@ -2,14 +2,14 @@
 <sim-project version="15.21" multi-file="no" uid="simp6885ffa8af5f4725b7244e5d75c22a38" creation-date="10/17/2026 11:41:19">
   <meta>
     <name>SW Porject</name>
-    <authors>mohamed gamal</authors>
+    <authors>Mohamed Reda</authors>
     <description />
   </meta>
   <counters models="1">
     <entity-names>
       <counter>
         <item-type type-id="actor" type="Actor" />
-        <value>6</value>
+        <value>7</value>
       </counter>
       <counter>
         <item-type type-id="system-boundary" type="System Boundary" />
@@ -20,30 +20,30 @@
         <value>18</value>
       </counter>
       <counter>
-        <item-type type="Unknown" />
-        <value>2</value>
-      </counter>
-      <counter>
         <item-type type-id="lifeline" type="Lifeline" />
-        <value>9</value>
+        <value>14</value>
       </counter>
       <counter>
         <item-type type-id="sequence-action" type="Message" />
-        <value>25</value>
+        <value>35</value>
       </counter>
       <counter>
         <item-type type-id="activation-bar" type="Execution Specification" />
-        <value>43</value>
+        <value>51</value>
       </counter>
       <counter>
         <item-type type-id="fragment" type="Fragment" />
-        <value>1</value>
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type="Unknown" />
+        <value>12</value>
       </counter>
     </entity-names>
     <entity-ids>
       <counter>
         <item-type type-id="actor" type="Actor" />
-        <value>10</value>
+        <value>11</value>
       </counter>
       <counter>
         <item-type type-id="system-boundary" type="System Boundary" />
@@ -79,7 +79,7 @@
       </counter>
       <counter>
         <item-type type-id="lifeline" type="Lifeline" />
-        <value>10</value>
+        <value>15</value>
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
@@ -87,15 +87,15 @@
       </counter>
       <counter>
         <item-type type-id="sequence-action" type="Message" />
-        <value>26</value>
+        <value>36</value>
       </counter>
       <counter>
         <item-type type-id="activation-bar" type="Execution Specification" />
-        <value>44</value>
+        <value>53</value>
       </counter>
       <counter>
         <item-type type-id="fragment" type="Fragment" />
-        <value>2</value>
+        <value>5</value>
       </counter>
       <counter>
         <item-type type-id="generalization" type="Generalization" />
@@ -166,6 +166,16 @@
         <phone-number />
         <description />
         <color>#00000000</color>
+        <working-schedule uid="ws-d74fec37c5874162a45f66ce95860a1b" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Mohamed</first-name>
+        <last-name>Reda</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
       </person>
     </persons>
     <teams />
@@ -183,8 +193,8 @@
     <custom-types>
       <parameters />
       <types>
-        <type id="Class:2a6d8a9186cd42a7a6dec9ca8da924c6" name="Server" class-ref="2a6d8a9186cd42a7a6dec9ca8da924c6" />
         <type id="Class:22178ade6f404e5f8db1012fe89a9f88" name="AppUI" class-ref="22178ade6f404e5f8db1012fe89a9f88" />
+        <type id="Class:2a6d8a9186cd42a7a6dec9ca8da924c6" name="Server" class-ref="2a6d8a9186cd42a7a6dec9ca8da924c6" />
         <type id="Class:9d5d6e6a52f84884ade58d43c945f6f7" name="Database" class-ref="9d5d6e6a52f84884ade58d43c945f6f7" />
         <type id="Class:di1ef294a0b67f4140ba5234e6c5b241263714" name="User" class-ref="di1ef294a0b67f4140ba5234e6c5b241263714" />
         <type id="Class:ff3b2dbd183848ddaf499e2a256b15e2" name="LocalStorage" class-ref="ff3b2dbd183848ddaf499e2a256b15e2" />
@@ -199,13 +209,13 @@
     <item id="a81f8693f4714810a9a1ca0a65f12851" cid="PROP022" type="property" owner="ad2e77ee5a9a435dbd0d1dd49c149745" creator="" creation-date="10/17/2026 19:27:37" visibility="private" />
     <item id="0a5b3cb542384a15b67593fc9a066170" cid="PROP014" type="property" owner="fc8112091dea4c0da18c9e8475ab41e7" creator="" creation-date="10/17/2026 19:26:45" visibility="private" />
     <item id="7d2325f589fc49489198b9a48c9b60e6" cid="PROP021" type="property" owner="ad2e77ee5a9a435dbd0d1dd49c149745" creator="" creation-date="10/17/2026 19:27:37" visibility="private" />
-    <item id="590970c4d9974a61b18943f42a46ca5e" cid="PROP049" type="property" name="server" creator="" creation-date="10/18/2026 15:04:31">
+    <item id="590970c4d9974a61b18943f42a46ca5e" cid="PROP049" type="property" name="server" creator="" creation-date="10/18/2026 15:04:31" visibility="undefined">
       <structural-feature type="Server" type-id="Class:2a6d8a9186cd42a7a6dec9ca8da924c6" />
     </item>
-    <item id="22178ade6f404e5f8db1012fe89a9f88" cid="C001" type="class" name="AppUI" creator="" creation-date="10/18/2026 15:04:15" />
+    <item id="22178ade6f404e5f8db1012fe89a9f88" cid="C001" type="class" name="AppUI" creator="" creation-date="10/18/2026 15:04:15" visibility="undefined" />
     <item id="7159cfdd4c36431380f14c1f9d972c66" cid="PROP035" type="property" owner="47e7f780b11f4a4db1b4a7920498f39e" creator="" creation-date="10/17/2026 20:52:12" visibility="private" />
-    <item id="703dab1b0faf4a8eac026d4112f89552" cid="PROP059" type="property" owner="dfc55af6d74646b4967f41472aa3a5b2" creator="" creation-date="10/18/2026 15:46:16" visibility="private" />
     <item id="e8e7fe45a9a4471093cb1b3593ba7cb7" cid="PROP042" type="property" owner="b0bf19f643224a76b5ee208a56fcbf62" creator="" creation-date="10/18/2026 14:55:59" visibility="private" />
+    <item id="703dab1b0faf4a8eac026d4112f89552" cid="PROP059" type="property" owner="dfc55af6d74646b4967f41472aa3a5b2" creator="" creation-date="10/18/2026 15:46:16" visibility="private" />
     <item id="a9c31526a9094d19b5e67d4059643eac" cid="PROP061" type="property" owner="fea041c90d19492fbd8da8bdbe728941" creator="" creation-date="10/18/2026 15:46:26" visibility="private" />
     <item id="feb7404f8264433384c6b1bbaa3d53c8" cid="PROP055" type="property" owner="4560310e4727497eb9a46c7842ceeaab" creator="" creation-date="10/18/2026 15:46:02" visibility="private" />
     <item id="3fb2cb51a07d4347baee8731c35d473a" cid="PROP080" type="property" owner="3f0d5517ed274b75890242b64895dfa4" creator="" creation-date="10/18/2026 16:50:21" visibility="private" />
@@ -220,34 +230,34 @@
     <item id="1cd6833b2127491ab6e8420ea70e2611" cid="PROP040" type="property" owner="6a3696e98e1f4bc0b422648dc1e711bf" creator="" creation-date="10/18/2026 14:55:53" visibility="private" />
     <item id="664ff59ce31e4f0fb80433c9945fc557" cid="PROP039" type="property" owner="6a3696e98e1f4bc0b422648dc1e711bf" creator="" creation-date="10/18/2026 14:55:53" visibility="private" />
     <item id="e213ad8b8d2340909e0242bab5fd7a08" cid="PROP046" type="property" owner="449b99e97e4144cb835eaa392e3cb647" creator="" creation-date="10/18/2026 14:56:43" visibility="private" />
-    <item id="ff3b2dbd183848ddaf499e2a256b15e2" cid="C003" type="class" name="LocalStorage" creator="" creation-date="10/18/2026 17:46:38" />
+    <item id="ff3b2dbd183848ddaf499e2a256b15e2" cid="C003" type="class" name="LocalStorage" creator="" creation-date="10/18/2026 17:46:38" visibility="undefined" />
     <item id="e36356c4063b47ac98def4479f4293f3" cid="PROP064" type="property" owner="8c945479505b45348d070fc32196ab90" creator="" creation-date="10/18/2026 16:49:11" visibility="private" />
     <item id="bfbccbbfaf4a4ad2a180555bec870a89" cid="PROP037" type="property" owner="1c06b6345dfb4687bc4277a0f7f13639" creator="" creation-date="10/18/2026 14:55:42" visibility="private" />
-    <item id="6cd7c60bbeba48998322f2f950273872" cid="PROP050" type="property" name="db" creator="" creation-date="10/18/2026 15:04:44">
+    <item id="6cd7c60bbeba48998322f2f950273872" cid="PROP050" type="property" name="db" creator="" creation-date="10/18/2026 15:04:44" visibility="undefined">
       <structural-feature type="Database" type-id="Class:9d5d6e6a52f84884ade58d43c945f6f7" />
     </item>
     <item id="a4a306014a1e468fb7f97d589d2d15ad" cid="PROP067" type="property" owner="08ec1c5227e542448176d3f1b07f231b" creator="" creation-date="10/18/2026 16:49:34" visibility="private" />
     <item id="21d0bd58b5e0404c9b28beaf2fd677df" cid="PROP012" type="property" owner="621e900ac79744a3a989a28e9eef8b91" creator="" creation-date="10/17/2026 19:26:32" visibility="private" />
     <item id="f9886690603348f2bcee21f71732e193" cid="PROP045" type="property" owner="449b99e97e4144cb835eaa392e3cb647" creator="" creation-date="10/18/2026 14:56:43" visibility="private" />
-    <item id="66eb869f6df64b62b90c435fb9a41c91" cid="PROP048" type="property" name="ui" creator="" creation-date="10/18/2026 15:04:15">
+    <item id="66eb869f6df64b62b90c435fb9a41c91" cid="PROP048" type="property" name="ui" creator="" creation-date="10/18/2026 15:04:15" visibility="undefined">
       <structural-feature type="AppUI" type-id="Class:22178ade6f404e5f8db1012fe89a9f88" />
     </item>
     <item id="010991c18d284ec0a4c614a1dd20b961" cid="PROP052" type="property" owner="e330c7f27d8342eaa3934bb955e4b923" creator="" creation-date="10/18/2026 15:45:41" visibility="private" />
-    <item id="75aa3d764fcd47048db19990401026ad" cid="PROP078" type="property" owner="8eedcecf62884b85ae470453fddca755" creator="" creation-date="10/18/2026 16:50:08" visibility="private" />
     <item id="7fd2f853155c4e428ba1f20feb433f18" cid="PROP011" type="property" owner="621e900ac79744a3a989a28e9eef8b91" creator="" creation-date="10/17/2026 19:26:32" visibility="private" />
+    <item id="75aa3d764fcd47048db19990401026ad" cid="PROP078" type="property" owner="8eedcecf62884b85ae470453fddca755" creator="" creation-date="10/18/2026 16:50:08" visibility="private" />
     <item id="33a7af841fa34e53967ed2101364793a" cid="PROP038" type="property" owner="1c06b6345dfb4687bc4277a0f7f13639" creator="" creation-date="10/18/2026 14:55:42" visibility="private" />
     <item id="8583402604b7409bb5dbaa0806d7f42a" cid="PROP074" type="property" owner="ef69ba0a8790479ca80b5b2ae3e07f9a" creator="" creation-date="10/18/2026 16:49:54" visibility="private" />
     <item id="ea25cd3d5ad945e7aa8428404d323532" cid="PROP058" type="property" owner="34a490aed1424b628854000980d4698d" creator="" creation-date="10/18/2026 15:46:09" visibility="private" />
-    <item id="7a335713fb9040fabd210b647fdcc457" cid="PROP051" type="property" owner="e330c7f27d8342eaa3934bb955e4b923" creator="" creation-date="10/18/2026 15:45:41" visibility="private" />
-    <item id="ef46dcfee6954ea7af91d8b352de24c9" cid="PROP047" type="property" name="user" creator="" creation-date="10/18/2026 15:04:01">
+    <item id="ef46dcfee6954ea7af91d8b352de24c9" cid="PROP047" type="property" name="user" creator="" creation-date="10/18/2026 15:04:01" visibility="undefined">
       <structural-feature type="User" type-id="Class:di1ef294a0b67f4140ba5234e6c5b241263714" />
     </item>
+    <item id="7a335713fb9040fabd210b647fdcc457" cid="PROP051" type="property" owner="e330c7f27d8342eaa3934bb955e4b923" creator="" creation-date="10/18/2026 15:45:41" visibility="private" />
     <item id="d8516acc386d4b009fe306a0b858ceb6" cid="PROP032" type="property" owner="c350856ae98d436dbd1d3a3008c8de00" creator="" creation-date="10/17/2026 19:28:28" visibility="private" />
     <item id="a6d7229e41854d2c88dbf089e279844e" cid="PROP073" type="property" owner="ef69ba0a8790479ca80b5b2ae3e07f9a" creator="" creation-date="10/18/2026 16:49:54" visibility="private" />
-    <item id="d04b3ab06b00497ca861bebcf68faf9b" cid="PROP081" type="property" name="storage" creator="" creation-date="10/18/2026 17:46:38">
+    <item id="d04b3ab06b00497ca861bebcf68faf9b" cid="PROP081" type="property" name="storage" creator="" creation-date="10/18/2026 17:46:38" visibility="undefined">
       <structural-feature type="LocalStorage" type-id="Class:ff3b2dbd183848ddaf499e2a256b15e2" />
     </item>
-    <item id="9d5d6e6a52f84884ade58d43c945f6f7" cid="C002" type="class" name="Database" creator="" creation-date="10/18/2026 15:04:44" />
+    <item id="9d5d6e6a52f84884ade58d43c945f6f7" cid="C002" type="class" name="Database" creator="" creation-date="10/18/2026 15:04:44" visibility="undefined" />
     <item id="c5653c0ea2af4cf09431899452ec8828" cid="AC002" type="actor" name="Server" creation-date="10/17/2026 12:13:38" visibility="undefined" />
     <item id="04bf861670b343aaa560a0f942f2a917" cid="PROP013" type="property" owner="fc8112091dea4c0da18c9e8475ab41e7" creator="" creation-date="10/17/2026 19:26:45" visibility="private" />
     <item id="93b0f6b05f9a408e92fee24e6234e681" cid="PROP062" type="property" owner="fea041c90d19492fbd8da8bdbe728941" creator="" creation-date="10/18/2026 15:46:26" visibility="private" />
@@ -286,26 +296,26 @@
           <item id="34a490aed1424b628854000980d4698d" cid="REL027" type="relationship" creator="" creation-date="10/18/2026 15:46:09" from="di1ef294a0b67f4140ba5234e6c5b241263714" to="1b497a29b7df42c4adfba936f2f44869" visibility="package">
             <owned-items />
             <relation from="di1ef294a0b67f4140ba5234e6c5b241263714" to="1b497a29b7df42c4adfba936f2f44869" derived="false">
-              <start-role id="umlar-404546c1-e9e6-4ebc-a3b1-aadb94eb1ca0" name="" navigability="" association-type="association" visibility="private" property-ref="c255bd00ad914a9bb3432980738475ee" />
-              <end-role id="umlar-02470d07-c24b-4148-9621-243e10c0f2e7" name="" navigability="" association-type="association" visibility="private" property-ref="ea25cd3d5ad945e7aa8428404d323532" />
+              <start-role id="umlar-a4385ec3-36cc-4b2f-8136-641acc8b3011" name="" navigability="" association-type="association" visibility="private" property-ref="c255bd00ad914a9bb3432980738475ee" />
+              <end-role id="umlar-774afa0d-fc8b-4ba3-92a4-16608f073e3d" name="" navigability="" association-type="association" visibility="private" property-ref="ea25cd3d5ad945e7aa8428404d323532" />
             </relation>
           </item>
           <item id="8eedcecf62884b85ae470453fddca755" cid="REL037" type="relationship" creator="" creation-date="10/18/2026 16:50:08" from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="dfc55af6d74646b4967f41472aa3a5b2" visibility="package">
             <owned-items />
             <relation from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="dfc55af6d74646b4967f41472aa3a5b2" derived="false">
-              <start-role id="umlar-a626d4f7-3806-4638-8159-457478c02131" name="" navigability="" association-type="association" visibility="private" property-ref="390e70125364489bbfab93f41ee1cdc3" />
-              <end-role id="umlar-0f3b1885-9c99-49f0-8a4f-f8313dc4f3a6" name="" navigability="" association-type="association" visibility="private" property-ref="75aa3d764fcd47048db19990401026ad" />
+              <start-role id="umlar-4ff5bf62-7c10-4db8-ba42-6e4c9de68045" name="" navigability="" association-type="association" visibility="private" property-ref="390e70125364489bbfab93f41ee1cdc3" />
+              <end-role id="umlar-e05cbdca-2b11-4375-9fe8-46628faec21c" name="" navigability="" association-type="association" visibility="private" property-ref="75aa3d764fcd47048db19990401026ad" />
             </relation>
           </item>
-          <item id="312ec818ff004b869137f8010b18e553" cid="AC009" type="actor" name="User" creator="" creation-date="10/18/2026 15:44:55" />
+          <item id="312ec818ff004b869137f8010b18e553" cid="AC009" type="actor" name="User" creator="" creation-date="10/18/2026 15:44:55" visibility="undefined" />
           <item id="e330c7f27d8342eaa3934bb955e4b923" cid="REL024" type="relationship" creator="" creation-date="10/18/2026 15:45:41" from="di1ef294a0b67f4140ba5234e6c5b241263714" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" visibility="package">
             <owned-items />
             <relation from="di1ef294a0b67f4140ba5234e6c5b241263714" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" derived="false">
-              <start-role id="umlar-fbd03157-5333-417d-bb14-515697f5bea6" name="" navigability="" association-type="association" visibility="private" property-ref="7a335713fb9040fabd210b647fdcc457" />
-              <end-role id="umlar-ba7ec687-270c-4bdb-8135-9df369914340" name="" navigability="" association-type="association" visibility="private" property-ref="010991c18d284ec0a4c614a1dd20b961" />
+              <start-role id="umlar-56c315c8-e0aa-4f87-9d3d-9a732d43bb73" name="" navigability="" association-type="association" visibility="private" property-ref="7a335713fb9040fabd210b647fdcc457" />
+              <end-role id="umlar-605bf503-4d05-487b-be62-1cffe65af71b" name="" navigability="" association-type="association" visibility="private" property-ref="010991c18d284ec0a4c614a1dd20b961" />
             </relation>
           </item>
-          <item id="7601eeb8cfb84f2e8fb64bfb26ae5e39" cid="UC014" type="use-case" name="Manage Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:42:30">
+          <item id="7601eeb8cfb84f2e8fb64bfb26ae5e39" cid="UC014" type="use-case" name="Manage Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:42:30" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
@@ -317,76 +327,76 @@
           <item id="ef69ba0a8790479ca80b5b2ae3e07f9a" cid="REL035" type="relationship" creator="" creation-date="10/18/2026 16:49:54" from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" visibility="package">
             <owned-items />
             <relation from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" derived="false">
-              <start-role id="umlar-2bf4a917-a53b-4f81-859d-eebf0f1ca186" name="" navigability="" association-type="association" visibility="private" property-ref="a6d7229e41854d2c88dbf089e279844e" />
-              <end-role id="umlar-df072c31-665f-42aa-9518-f245f559b38b" name="" navigability="" association-type="association" visibility="private" property-ref="8583402604b7409bb5dbaa0806d7f42a" />
+              <start-role id="umlar-1946844d-34a3-4a12-b8b9-d56ae8bed3a5" name="" navigability="" association-type="association" visibility="private" property-ref="a6d7229e41854d2c88dbf089e279844e" />
+              <end-role id="umlar-d2918698-d9a4-4323-a8fc-2bb1e0c285ac" name="" navigability="" association-type="association" visibility="private" property-ref="8583402604b7409bb5dbaa0806d7f42a" />
             </relation>
           </item>
           <item id="fea041c90d19492fbd8da8bdbe728941" cid="REL029" type="relationship" creator="" creation-date="10/18/2026 15:46:26" from="di1ef294a0b67f4140ba5234e6c5b241263714" to="f39800ed284641e1a58d75b05eecf680" visibility="package">
             <owned-items />
             <relation from="di1ef294a0b67f4140ba5234e6c5b241263714" to="f39800ed284641e1a58d75b05eecf680" derived="false">
-              <start-role id="umlar-28b2e6c4-8bd7-43fd-a215-3dfa464227e4" name="" navigability="" association-type="association" visibility="private" property-ref="a9c31526a9094d19b5e67d4059643eac" />
-              <end-role id="umlar-31e11576-bd46-4140-9dbb-caac6412512b" name="" navigability="" association-type="association" visibility="private" property-ref="93b0f6b05f9a408e92fee24e6234e681" />
+              <start-role id="umlar-562adb53-93d0-4398-8b7b-2997b5dbe99a" name="" navigability="" association-type="association" visibility="private" property-ref="a9c31526a9094d19b5e67d4059643eac" />
+              <end-role id="umlar-7da5f5b3-2418-4745-af25-03f3886c6005" name="" navigability="" association-type="association" visibility="private" property-ref="93b0f6b05f9a408e92fee24e6234e681" />
             </relation>
           </item>
-          <item id="a01fa4f5c1b64b2d82960725ce9bf0bf" cid="UC015" type="use-case" name="Edit Profile" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:42:43">
+          <item id="a01fa4f5c1b64b2d82960725ce9bf0bf" cid="UC015" type="use-case" name="Edit Profile" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:42:43" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
           </item>
-          <item id="68ea5917e9cf40bbaa54a9efab9b75c8" cid="GNR006" type="generalization" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:48:19" from="a01fa4f5c1b64b2d82960725ce9bf0bf" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" visibility="package" />
           <item id="4560310e4727497eb9a46c7842ceeaab" cid="REL026" type="relationship" creator="" creation-date="10/18/2026 15:46:02" from="di1ef294a0b67f4140ba5234e6c5b241263714" to="a01fa4f5c1b64b2d82960725ce9bf0bf" visibility="package">
             <owned-items />
             <relation from="di1ef294a0b67f4140ba5234e6c5b241263714" to="a01fa4f5c1b64b2d82960725ce9bf0bf" derived="false">
-              <start-role id="umlar-f6971ddf-113c-4eaa-b2b6-584374154ab4" name="" navigability="" association-type="association" visibility="private" property-ref="feb7404f8264433384c6b1bbaa3d53c8" />
-              <end-role id="umlar-b4c31ae0-40d9-4a94-9226-509e88df8071" name="" navigability="" association-type="association" visibility="private" property-ref="f925f9eb3fd249b58404622d203c0228" />
+              <start-role id="umlar-4184065c-9963-4859-adc3-534ceff02bd5" name="" navigability="" association-type="association" visibility="private" property-ref="feb7404f8264433384c6b1bbaa3d53c8" />
+              <end-role id="umlar-558ac068-5bea-447f-ab4f-d27e7e649158" name="" navigability="" association-type="association" visibility="private" property-ref="f925f9eb3fd249b58404622d203c0228" />
             </relation>
           </item>
-          <item id="1b497a29b7df42c4adfba936f2f44869" cid="UC016" type="use-case" name="Switch Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:42:58">
+          <item id="68ea5917e9cf40bbaa54a9efab9b75c8" cid="GNR006" type="generalization" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:48:19" from="a01fa4f5c1b64b2d82960725ce9bf0bf" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" visibility="package" />
+          <item id="1b497a29b7df42c4adfba936f2f44869" cid="UC016" type="use-case" name="Switch Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:42:58" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
           </item>
-          <item id="5088a7e501274258b26f2d063099d0d3" cid="UC017" type="use-case" name="Add Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:43:20">
+          <item id="5088a7e501274258b26f2d063099d0d3" cid="UC017" type="use-case" name="Add Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:43:20" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
-          </item>
-          <item id="08ec1c5227e542448176d3f1b07f231b" cid="REL032" type="relationship" creator="" creation-date="10/18/2026 16:49:34" from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="a01fa4f5c1b64b2d82960725ce9bf0bf" visibility="package">
-            <owned-items />
-            <relation from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="a01fa4f5c1b64b2d82960725ce9bf0bf" derived="false">
-              <start-role id="umlar-7174d761-91f3-4090-9fcc-91060fcd56ff" name="" navigability="" association-type="association" visibility="private" property-ref="a4a306014a1e468fb7f97d589d2d15ad" />
-              <end-role id="umlar-c17b1c73-44a9-42eb-b541-d961d2d7aa13" name="" navigability="" association-type="association" visibility="private" property-ref="14feb37d70e04ed1905f0a73fff6e678" />
-            </relation>
           </item>
           <item id="dfc55af6d74646b4967f41472aa3a5b2" cid="REL028" type="relationship" creator="" creation-date="10/18/2026 15:46:16" from="di1ef294a0b67f4140ba5234e6c5b241263714" to="5088a7e501274258b26f2d063099d0d3" visibility="package">
             <owned-items />
             <relation from="di1ef294a0b67f4140ba5234e6c5b241263714" to="5088a7e501274258b26f2d063099d0d3" derived="false">
-              <start-role id="umlar-e9e6980a-aa04-4133-8c5b-52bb8faac972" name="" navigability="" association-type="association" visibility="private" property-ref="703dab1b0faf4a8eac026d4112f89552" />
-              <end-role id="umlar-1664ef68-df8e-498f-9beb-5d4029443663" name="" navigability="" association-type="association" visibility="private" property-ref="2949e3a443e04d96b03e16929a5b7bce" />
+              <start-role id="umlar-e93f7bc2-ffad-4742-a54d-21bb3d9cf2ac" name="" navigability="" association-type="association" visibility="private" property-ref="703dab1b0faf4a8eac026d4112f89552" />
+              <end-role id="umlar-d8b288e1-4324-4a24-a5b8-c7c806409d1c" name="" navigability="" association-type="association" visibility="private" property-ref="2949e3a443e04d96b03e16929a5b7bce" />
+            </relation>
+          </item>
+          <item id="08ec1c5227e542448176d3f1b07f231b" cid="REL032" type="relationship" creator="" creation-date="10/18/2026 16:49:34" from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="a01fa4f5c1b64b2d82960725ce9bf0bf" visibility="package">
+            <owned-items />
+            <relation from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="a01fa4f5c1b64b2d82960725ce9bf0bf" derived="false">
+              <start-role id="umlar-0b2df72a-a48c-4168-a8c1-7e71678a6fc5" name="" navigability="" association-type="association" visibility="private" property-ref="a4a306014a1e468fb7f97d589d2d15ad" />
+              <end-role id="umlar-06771cfd-2bc9-466e-8185-1f1f49fed537" name="" navigability="" association-type="association" visibility="private" property-ref="14feb37d70e04ed1905f0a73fff6e678" />
             </relation>
           </item>
           <item id="8c945479505b45348d070fc32196ab90" cid="REL030" type="relationship" creator="" creation-date="10/18/2026 16:49:11" from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="1b497a29b7df42c4adfba936f2f44869" visibility="package">
             <owned-items />
             <relation from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="1b497a29b7df42c4adfba936f2f44869" derived="false">
-              <start-role id="umlar-e1f25349-059a-4baf-ab39-315d2fe65a64" name="" navigability="" association-type="association" visibility="private" property-ref="0c481dbb3c474342825e36a906bdb7f8" />
-              <end-role id="umlar-6dc1ee05-2bb5-4a55-85d4-27d8c6baaa72" name="" navigability="" association-type="association" visibility="private" property-ref="e36356c4063b47ac98def4479f4293f3" />
+              <start-role id="umlar-a150f765-08e2-47bc-8004-93758a1ff357" name="" navigability="" association-type="association" visibility="private" property-ref="0c481dbb3c474342825e36a906bdb7f8" />
+              <end-role id="umlar-9878bca9-68c7-4c86-802c-dbc6f24588b2" name="" navigability="" association-type="association" visibility="private" property-ref="e36356c4063b47ac98def4479f4293f3" />
             </relation>
           </item>
           <item id="3f0d5517ed274b75890242b64895dfa4" cid="REL038" type="relationship" creator="" creation-date="10/18/2026 16:50:21" from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="f39800ed284641e1a58d75b05eecf680" visibility="package">
             <owned-items />
             <relation from="2a6d8a9186cd42a7a6dec9ca8da924c6" to="f39800ed284641e1a58d75b05eecf680" derived="false">
-              <start-role id="umlar-ff4c1be3-93e1-4e11-9dd1-fdac6f083ca3" name="" navigability="" association-type="association" visibility="private" property-ref="691a748158124718a8243ebedf2a4d8b" />
-              <end-role id="umlar-6c4d5f23-298c-4f9c-924b-f5d9e05179b2" name="" navigability="" association-type="association" visibility="private" property-ref="3fb2cb51a07d4347baee8731c35d473a" />
+              <start-role id="umlar-1281e125-ac39-412d-a9eb-d951d22986b5" name="" navigability="" association-type="association" visibility="private" property-ref="691a748158124718a8243ebedf2a4d8b" />
+              <end-role id="umlar-dd5aad01-04ee-49bc-af19-e1a1516ada73" name="" navigability="" association-type="association" visibility="private" property-ref="3fb2cb51a07d4347baee8731c35d473a" />
             </relation>
           </item>
           <item id="f572517f90f34b3a8ec4d65b692e55a2" cid="GNR005" type="generalization" creator="" creation-date="10/18/2026 15:48:07" from="5088a7e501274258b26f2d063099d0d3" to="7601eeb8cfb84f2e8fb64bfb26ae5e39" visibility="package" />
-          <item id="f39800ed284641e1a58d75b05eecf680" cid="UC018" type="use-case" name="Remove Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:43:31">
+          <item id="f39800ed284641e1a58d75b05eecf680" cid="UC018" type="use-case" name="Remove Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:43:31" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
@@ -545,7 +555,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-sequence" id="p80364d909f0947c09018bcdf6e2211d1_774575586" name="Switch account sequence" order-index="3" overview-order-index="0" thumbnail-color="#FF00FFFF" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="uml-sequence" id="p80364d909f0947c09018bcdf6e2211d1_774575586" name="Switch account sequence" order-index="3" overview-order-index="0" thumbnail-color="#FF00FFFF" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="1,-114" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -557,15 +567,15 @@
           </authors>
           <description />
           <creation-date>10/17/2026 12:13:14</creation-date>
-          <change-date>10/18/2026 17:57:34</change-date>
+          <change-date>10/18/2026 18:05:09</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="d0724ed3ae7847f8a6f3bdfb3d205b9c" cid="ES033" type="activation-bar" name="ExecutionSpecification33" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 17:53:36">
+          <item id="d0724ed3ae7847f8a6f3bdfb3d205b9c" cid="ES033" type="activation-bar" name="ExecutionSpecification33" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 17:53:36" visibility="undefined">
             <activation-bar lifeline-ref="00bfec06e73b418a9c88e601757167c7" />
           </item>
-          <item id="d79b1d46363c42a88b5901d3e363ffba" cid="ES030" type="activation-bar" name="ExecutionSpecification30" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:53:06">
+          <item id="d79b1d46363c42a88b5901d3e363ffba" cid="ES030" type="activation-bar" name="ExecutionSpecification30" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:53:06" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
           <item id="4f66ff570a6a49d785a3720bdef77ea5" cid="SM020" type="sequence-action" name="Message20" creator="" creation-date="10/18/2026 17:54:15" from="6e740591de2e4e3f9b3175107dad2699" to="78a3867603a246e793a11087d6e6544a" visibility="package">
@@ -573,35 +583,35 @@
               <parameters />
             </sequence-action>
           </item>
+          <item id="73f508ace9c546e688c25feb96b9976c" cid="ES023" type="activation-bar" name="ExecutionSpecification23" owner="e7ee2865a5c049b5afa86165be82bf8d" creator="" creation-date="10/18/2026 17:49:48" visibility="undefined">
+            <activation-bar lifeline-ref="e7ee2865a5c049b5afa86165be82bf8d" />
+          </item>
           <item id="a3ae030e337c4680b29d66744e9411c2" cid="SM022" type="sequence-action" name="Message22" creator="" creation-date="10/18/2026 17:55:37" from="d1cc348b958d4d31845eb6f1ed149940" to="691ab06359eb4e9cbbd8d5ad9ce356ce" visibility="package">
             <sequence-action type="call" message="Set active account" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
-          </item>
-          <item id="73f508ace9c546e688c25feb96b9976c" cid="ES023" type="activation-bar" name="ExecutionSpecification23" owner="e7ee2865a5c049b5afa86165be82bf8d" creator="" creation-date="10/18/2026 17:49:48">
-            <activation-bar lifeline-ref="e7ee2865a5c049b5afa86165be82bf8d" />
           </item>
           <item id="125c84ff4409446395fa1d6dfb5f0396" cid="SM017" type="sequence-action" name="Message17" creator="" creation-date="10/18/2026 17:53:04" from="d79b1d46363c42a88b5901d3e363ffba" to="614a2fbce2af4e918333c18fbe5ebde1" visibility="package">
             <sequence-action type="call" message="Request account/session validation" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
-          <item id="34e028ed1a4343bc8571255a5a158fa8" cid="ES022" type="activation-bar" name="ExecutionSpecification22" owner="e7ee2865a5c049b5afa86165be82bf8d" creator="" creation-date="10/18/2026 17:49:09">
+          <item id="34e028ed1a4343bc8571255a5a158fa8" cid="ES022" type="activation-bar" name="ExecutionSpecification22" owner="e7ee2865a5c049b5afa86165be82bf8d" creator="" creation-date="10/18/2026 17:49:09" visibility="undefined">
             <activation-bar lifeline-ref="e7ee2865a5c049b5afa86165be82bf8d" />
           </item>
-          <item id="f3227d87dacb49dd893e2dd7e894fe1c" cid="ES041" type="activation-bar" name="ExecutionSpecification41" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:56:23">
-            <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
+          <item id="f3227d87dacb49dd893e2dd7e894fe1c" cid="ES041" type="activation-bar" name="ExecutionSpecification41" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:56:23" visibility="undefined">
+            <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="01d373a2b43b4f5baa72472204c00883" cid="LL007" type="lifeline" name="server" creator="" creation-date="10/18/2026 17:45:50">
+          <item id="01d373a2b43b4f5baa72472204c00883" cid="LL007" type="lifeline" name="server" creator="" creation-date="10/18/2026 17:45:50" visibility="undefined">
             <lifeline classifier-name="Server" classifier-ref="590970c4d9974a61b18943f42a46ca5e" selector="" is-multi-object="false" />
           </item>
-          <item id="0a460728540f4d8ebfaf30e48ae8cf2a" cid="ES036" type="activation-bar" name="ExecutionSpecification36" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:54:38">
+          <item id="0a460728540f4d8ebfaf30e48ae8cf2a" cid="ES036" type="activation-bar" name="ExecutionSpecification36" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:54:38" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
-          <item id="6e740591de2e4e3f9b3175107dad2699" cid="ES034" type="activation-bar" name="ExecutionSpecification34" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 17:54:17">
+          <item id="6e740591de2e4e3f9b3175107dad2699" cid="ES034" type="activation-bar" name="ExecutionSpecification34" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 17:54:17" visibility="undefined">
             <activation-bar lifeline-ref="00bfec06e73b418a9c88e601757167c7" />
           </item>
-          <item id="c468450063ef4485bb73557f52a9df01" cid="ES032" type="activation-bar" name="ExecutionSpecification32" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:53:36">
+          <item id="c468450063ef4485bb73557f52a9df01" cid="ES032" type="activation-bar" name="ExecutionSpecification32" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:53:36" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
           <item id="0c35e018d7744848b552e132330a5dbb" cid="SM025" type="sequence-action" name="Message25" creator="" creation-date="10/18/2026 17:57:31" from="d1cc348b958d4d31845eb6f1ed149940" to="c5164c61cc294decb35f9171f169e926" visibility="package">
@@ -609,16 +619,16 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="dd9b85837970473ab915321a2b88caaf" cid="ES026" type="activation-bar" name="ExecutionSpecification26" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:50:54">
+          <item id="dd9b85837970473ab915321a2b88caaf" cid="ES026" type="activation-bar" name="ExecutionSpecification26" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:50:54" visibility="undefined">
             <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
           </item>
-          <item id="d163437adeeb4215909d02f723c1a910" cid="ES021" type="activation-bar" name="ExecutionSpecification21" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:49:09">
+          <item id="d163437adeeb4215909d02f723c1a910" cid="ES021" type="activation-bar" name="ExecutionSpecification21" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:49:09" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="b7083b4bbbe64f2f92c76f5e4835bc43" cid="LL008" type="lifeline" name="db" creator="" creation-date="10/18/2026 17:46:07">
+          <item id="b7083b4bbbe64f2f92c76f5e4835bc43" cid="LL008" type="lifeline" name="db" creator="" creation-date="10/18/2026 17:46:07" visibility="undefined">
             <lifeline classifier-name="Database" classifier-ref="6cd7c60bbeba48998322f2f950273872" selector="" is-multi-object="false" />
           </item>
-          <item id="9c8322800361419d946257c0e84b6967" cid="LL005" type="lifeline" name="user" creator="" creation-date="10/18/2026 17:43:51">
+          <item id="9c8322800361419d946257c0e84b6967" cid="LL005" type="lifeline" name="user" creator="" creation-date="10/18/2026 17:43:51" visibility="undefined">
             <lifeline classifier-name="User" classifier-ref="ef46dcfee6954ea7af91d8b352de24c9" selector="" is-multi-object="false" />
           </item>
           <item id="77178ac763bf4efcb6870cc3066c12aa" cid="SM013" type="sequence-action" name="Message13" creator="" creation-date="10/18/2026 17:49:42" from="73f508ace9c546e688c25feb96b9976c" to="df662e4f4be348dbb9a571b93cff1988" visibility="package">
@@ -626,10 +636,10 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="2b236869735a4d7b9c672a674779079f" cid="ES029" type="activation-bar" name="ExecutionSpecification29" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:51:33">
+          <item id="2b236869735a4d7b9c672a674779079f" cid="ES029" type="activation-bar" name="ExecutionSpecification29" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:51:33" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="d1cc348b958d4d31845eb6f1ed149940" cid="ES038" type="activation-bar" name="ExecutionSpecification38" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:55:44">
+          <item id="d1cc348b958d4d31845eb6f1ed149940" cid="ES038" type="activation-bar" name="ExecutionSpecification38" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:55:44" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
           <item id="08ca29e9b6de4d189bd493399c1c159c" cid="SM011" type="sequence-action" name="Message11" creator="" creation-date="10/18/2026 17:47:37" from="a3a5b49d7f5d4918b7245d9c16df5f6f" to="5ebe0f1b4e5443888d9c79abf20073df" visibility="package">
@@ -637,7 +647,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="691ab06359eb4e9cbbd8d5ad9ce356ce" cid="ES039" type="activation-bar" name="ExecutionSpecification39" owner="e7ee2865a5c049b5afa86165be82bf8d" creator="" creation-date="10/18/2026 17:55:44">
+          <item id="691ab06359eb4e9cbbd8d5ad9ce356ce" cid="ES039" type="activation-bar" name="ExecutionSpecification39" owner="e7ee2865a5c049b5afa86165be82bf8d" creator="" creation-date="10/18/2026 17:55:44" visibility="undefined">
             <activation-bar lifeline-ref="e7ee2865a5c049b5afa86165be82bf8d" />
           </item>
           <item id="0b5f34fc7ee748ecaebc337f2439d9b7" cid="SM019" type="sequence-action" name="Message19" creator="" creation-date="10/18/2026 17:53:33" from="c468450063ef4485bb73557f52a9df01" to="d0724ed3ae7847f8a6f3bdfb3d205b9c" visibility="package">
@@ -645,7 +655,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="614a2fbce2af4e918333c18fbe5ebde1" cid="ES031" type="activation-bar" name="ExecutionSpecification31" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:53:06">
+          <item id="614a2fbce2af4e918333c18fbe5ebde1" cid="ES031" type="activation-bar" name="ExecutionSpecification31" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:53:06" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
           <item id="653e75c817044c75a83d932fa694930e" cid="SM016" type="sequence-action" name="Message16" creator="" creation-date="10/18/2026 17:51:30" from="0affb82a249141c7994c19e3fcf5e761" to="2b236869735a4d7b9c672a674779079f" visibility="package">
@@ -653,13 +663,23 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="db0290c9cde94de2b749f2579c6af4ac" cid="LL006" type="lifeline" name="ui" creator="" creation-date="10/18/2026 17:44:08">
+          <item id="2bf0971ae97343a3a22636f0798575fc" cid="FR003" type="fragment" name="Add new account" creator="" creation-date="10/18/2026 18:05:09" visibility="undefined">
+            <fragment operator="opt">
+              <operands />
+            </fragment>
+          </item>
+          <item id="79d99fd049ff4aa2af2174c9825491a9" cid="FR002" type="fragment" name="account valid" creator="" creation-date="10/18/2026 18:04:46" visibility="undefined">
+            <fragment operator="alt">
+              <operands />
+            </fragment>
+          </item>
+          <item id="db0290c9cde94de2b749f2579c6af4ac" cid="LL006" type="lifeline" name="ui" creator="" creation-date="10/18/2026 17:44:08" visibility="undefined">
             <lifeline classifier-name="AppUI" classifier-ref="66eb869f6df64b62b90c435fb9a41c91" selector="" is-multi-object="false" />
           </item>
-          <item id="5ebe0f1b4e5443888d9c79abf20073df" cid="ES020" type="activation-bar" name="ExecutionSpecification20" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:47:39">
+          <item id="5ebe0f1b4e5443888d9c79abf20073df" cid="ES020" type="activation-bar" name="ExecutionSpecification20" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:47:39" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="e7ee2865a5c049b5afa86165be82bf8d" cid="LL009" type="lifeline" name="storage" creator="" creation-date="10/18/2026 17:46:28">
+          <item id="e7ee2865a5c049b5afa86165be82bf8d" cid="LL009" type="lifeline" name="storage" creator="" creation-date="10/18/2026 17:46:28" visibility="undefined">
             <owned-items />
             <lifeline classifier-name="LocalStorage" classifier-ref="d04b3ab06b00497ca861bebcf68faf9b" selector="" is-multi-object="false" />
           </item>
@@ -668,19 +688,19 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="df662e4f4be348dbb9a571b93cff1988" cid="ES024" type="activation-bar" name="ExecutionSpecification24" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:49:48">
+          <item id="df662e4f4be348dbb9a571b93cff1988" cid="ES024" type="activation-bar" name="ExecutionSpecification24" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:49:48" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="0f0791a7295f415ab4ddb9b88e8419c2" cid="ES025" type="activation-bar" name="ExecutionSpecification25" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:50:54">
+          <item id="0f0791a7295f415ab4ddb9b88e8419c2" cid="ES025" type="activation-bar" name="ExecutionSpecification25" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:50:54" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="e21d9cad6eeb4762abb6f11481dd0b26" cid="ES037" type="activation-bar" name="ExecutionSpecification37" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:54:38">
+          <item id="e21d9cad6eeb4762abb6f11481dd0b26" cid="ES037" type="activation-bar" name="ExecutionSpecification37" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 17:54:38" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="b64b66e8725b485885e49539ea9286e3" cid="ES040" type="activation-bar" name="ExecutionSpecification40" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:56:23">
+          <item id="b64b66e8725b485885e49539ea9286e3" cid="ES040" type="activation-bar" name="ExecutionSpecification40" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:56:23" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
-          <item id="78a3867603a246e793a11087d6e6544a" cid="ES035" type="activation-bar" name="ExecutionSpecification35" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:54:17">
+          <item id="78a3867603a246e793a11087d6e6544a" cid="ES035" type="activation-bar" name="ExecutionSpecification35" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 17:54:17" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
           <item id="16d580d895794bf7bde7c15ddac3fccf" cid="SM014" type="sequence-action" name="Message14" creator="" creation-date="10/18/2026 17:50:51" from="0f0791a7295f415ab4ddb9b88e8419c2" to="dd9b85837970473ab915321a2b88caaf" visibility="package">
@@ -688,7 +708,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="0affb82a249141c7994c19e3fcf5e761" cid="ES028" type="activation-bar" name="ExecutionSpecification28" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:51:33">
+          <item id="0affb82a249141c7994c19e3fcf5e761" cid="ES028" type="activation-bar" name="ExecutionSpecification28" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:51:33" visibility="undefined">
             <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
           </item>
           <item id="5e9655b6f6ae4f52a83f4692beea9a28" cid="SM023" type="sequence-action" name="Message23" creator="" creation-date="10/18/2026 17:56:20" from="b64b66e8725b485885e49539ea9286e3" to="f3227d87dacb49dd893e2dd7e894fe1c" visibility="package">
@@ -696,10 +716,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="a3a5b49d7f5d4918b7245d9c16df5f6f" cid="ES019" type="activation-bar" name="ExecutionSpecification19" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:47:39">
-            <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
-          </item>
-          <item id="c5164c61cc294decb35f9171f169e926" cid="ES043" type="activation-bar" name="ExecutionSpecification43" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:57:34">
+          <item id="a3a5b49d7f5d4918b7245d9c16df5f6f" cid="ES019" type="activation-bar" name="ExecutionSpecification19" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:47:39" visibility="undefined">
             <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
           </item>
           <item id="b2b1734fb6ef4e1e957769b9a1e4443a" cid="SM012" type="sequence-action" name="Message12" creator="" creation-date="10/18/2026 17:49:01" from="d163437adeeb4215909d02f723c1a910" to="34e028ed1a4343bc8571255a5a158fa8" visibility="package">
@@ -707,30 +724,33 @@
               <parameters />
             </sequence-action>
           </item>
+          <item id="c5164c61cc294decb35f9171f169e926" cid="ES043" type="activation-bar" name="ExecutionSpecification43" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 17:57:34" visibility="undefined">
+            <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
+          </item>
         </abstract-items>
         <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false">
-          <item id="3490caa3003a4c06867d5d19b22e71cf" iid="51d372bb1f374b4aada144dec080deb6" creation-date="10/18/2026 17:43:51" order-index="0" type="lifeline">
-            <layout ax="60" ay="100" awidth="140" aheight="1490" x="60" y="100" width="140" height="500" expanded="60,100,140,1240" collapsed="0,0,0,0" container-layout="simple">
-              <container-layout padding="10,10,10,10" />
-            </layout>
-          </item>
-          <item id="20978c57726144f88c853b2542084c85" iid="16f7538d8b5d4b8cb6ee88db16f37cb9" creation-date="10/18/2026 17:44:08" order-index="1" type="lifeline">
-            <layout ax="300" ay="100" awidth="140" aheight="1490" x="300" y="100" width="140" height="500" expanded="300,100,140,1240" collapsed="0,0,0,0" container-layout="simple">
+          <item id="00bfec06e73b418a9c88e601757167c7" iid="bd64c27a8ef14326878c352510b4c513" creation-date="10/18/2026 17:46:07" order-index="3" type="lifeline">
+            <layout ax="780" ay="100" awidth="140" aheight="1400" x="780" y="100" width="140" height="1480" expanded="780,100,140,1480" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="1afc31a8952f46228cacb55240602594" iid="f8f0ea01e7f940c39f2ecbf368ad9938" creation-date="10/18/2026 17:45:50" order-index="2" type="lifeline">
-            <layout ax="540" ay="100" awidth="140" aheight="1490" x="540" y="100" width="140" height="910" expanded="540,100,140,1240" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="540" ay="100" awidth="140" aheight="1400" x="540" y="100" width="140" height="910" expanded="540,100,140,1240" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
-          <item id="00bfec06e73b418a9c88e601757167c7" iid="bd64c27a8ef14326878c352510b4c513" creation-date="10/18/2026 17:46:07" order-index="3" type="lifeline">
-            <layout ax="780" ay="100" awidth="140" aheight="1480" x="780" y="100" width="140" height="1480" expanded="780,100,140,1480" collapsed="0,0,0,0" container-layout="simple">
+          <item id="20978c57726144f88c853b2542084c85" iid="16f7538d8b5d4b8cb6ee88db16f37cb9" creation-date="10/18/2026 17:44:08" order-index="1" type="lifeline">
+            <layout ax="300" ay="100" awidth="140" aheight="1400" x="300" y="100" width="140" height="500" expanded="300,100,140,1240" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="3490caa3003a4c06867d5d19b22e71cf" iid="51d372bb1f374b4aada144dec080deb6" creation-date="10/18/2026 17:43:51" order-index="0" type="lifeline">
+            <layout ax="60" ay="100" awidth="140" aheight="1410" x="60" y="100" width="140" height="500" expanded="60,100,140,1240" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="e7ee2865a5c049b5afa86165be82bf8d" iid="63212e0a8a194aad94edb400ecd2c755" creation-date="10/18/2026 17:46:28" order-index="4" type="lifeline">
-            <layout ax="1020" ay="100" awidth="140" aheight="1490" x="1020" y="100" width="140" height="1230" expanded="1020,100,140,1230" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="1020" ay="100" awidth="140" aheight="1400" x="1020" y="100" width="140" height="1230" expanded="1020,100,140,1230" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
@@ -934,11 +954,16 @@
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
+          <item id="f3227d87dacb49dd893e2dd7e894fe1c" iid="a0a12ac377fb48b4a83ff919b7dbb976" container="20978c57726144f88c853b2542084c85" container-iid="16f7538d8b5d4b8cb6ee88db16f37cb9" creation-date="10/18/2026 17:56:23" order-index="37" type="entity">
+            <layout ax="360" ay="1440" awidth="20" aheight="40" x="360" y="1440" width="20" height="40" expanded="360,1440,20,40" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
           <item id="5e9655b6f6ae4f52a83f4692beea9a28" iid="2e7ef2c4432e4a53bd530085d2d10db1" creation-date="10/18/2026 17:56:20" order-index="35" type="relation">
-            <layout message-x="370" message-y="1460" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="600" y1="1440" x2="140" y2="1440" start-border-pos="0.999" end-border-pos="0.251" start-local-pos="0" end-local-pos="0" name-position="0,20">
+            <layout message-x="490" message-y="1460" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="600" y1="1440" x2="380" y2="1440" start-border-pos="0.999" end-border-pos="0.251" start-local-pos="0" end-local-pos="0" name-position="0,20">
               <points>
                 <point x="600" y="1440" />
-                <point x="140" y="1440" />
+                <point x="380" y="1440" />
               </points>
             </layout>
             <relation from="b64b66e8725b485885e49539ea9286e3" from-iid="117c37e67097448083422e0d6b4573df" to="f3227d87dacb49dd893e2dd7e894fe1c" to-iid="a0a12ac377fb48b4a83ff919b7dbb976" />
@@ -946,11 +971,6 @@
           </item>
           <item id="b64b66e8725b485885e49539ea9286e3" iid="117c37e67097448083422e0d6b4573df" container="1afc31a8952f46228cacb55240602594" container-iid="f8f0ea01e7f940c39f2ecbf368ad9938" creation-date="10/18/2026 17:56:23" order-index="36" type="entity">
             <layout ax="600" ay="1440" awidth="20" aheight="40" x="600" y="1440" width="20" height="40" expanded="0,0,0,0" collapsed="0,0,0,0" container-layout="simple">
-              <container-layout padding="10,10,10,10" />
-            </layout>
-          </item>
-          <item id="f3227d87dacb49dd893e2dd7e894fe1c" iid="a0a12ac377fb48b4a83ff919b7dbb976" container="3490caa3003a4c06867d5d19b22e71cf" container-iid="51d372bb1f374b4aada144dec080deb6" creation-date="10/18/2026 17:56:23" order-index="37" type="entity">
-            <layout ax="120" ay="1440" awidth="20" aheight="40" x="120" y="1440" width="20" height="40" expanded="0,0,0,0" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
@@ -966,6 +986,16 @@
           </item>
           <item id="c5164c61cc294decb35f9171f169e926" iid="3989d5113177401cac8fba5aa94e3299" container="3490caa3003a4c06867d5d19b22e71cf" container-iid="51d372bb1f374b4aada144dec080deb6" creation-date="10/18/2026 17:57:34" order-index="39" type="entity">
             <layout ax="120" ay="1320" awidth="20" aheight="40" x="120" y="1320" width="20" height="40" expanded="0,0,0,0" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="79d99fd049ff4aa2af2174c9825491a9" iid="d6660c5561d84322afb2611302ea45fd" creation-date="10/18/2026 18:04:46" order-index="40" type="entity">
+            <layout ax="80" ay="1160" awidth="600" aheight="420" x="80" y="1160" width="600" height="420" expanded="80,1160,600,420" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="2bf0971ae97343a3a22636f0798575fc" iid="630df0b30d26468c904ef14f2a46e75b" creation-date="10/18/2026 18:05:09" order-index="41" type="entity">
+            <layout ax="60" ay="210" awidth="390" aheight="120" x="60" y="210" width="390" height="120" expanded="60,210,390,120" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
@@ -1002,14 +1032,7 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="b60a384986764faba44f54a16f8a2698" cid="INC002" type="include" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:02:20" from="e29c2f7934834aeca875425c84eecdc1" to="cb31c900c01047f3a067e63e7682f35e" visibility="package">
-            <stereotypes>
-              <stereotype name="include" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="b60a384986764faba44f54a16f8a2698_include_c" type="include" creation-date="10/18/2026 15:02:20" ref="" />
-            </stereotype-instances>
-          </item>
+          <item id="40cc8d3e411744e08b625bb8cd8636a2" cid="SYS002" type="system-boundary" name="Libro" creator="" creation-date="10/18/2026 14:53:00" />
           <item id="61b671c99b1b4be0b526725bb573c34d" cid="INC001" type="include" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:58:43" from="dafae1ce89a44a2f9844c634958fe5d3" to="1751a54eaa6d4941b3d43b212618083d" visibility="package">
             <stereotypes>
               <stereotype name="include" />
@@ -1018,22 +1041,29 @@
               <stereotype id="61b671c99b1b4be0b526725bb573c34d_include_c" type="include" creation-date="10/18/2026 14:58:43" ref="" />
             </stereotype-instances>
           </item>
-          <item id="40cc8d3e411744e08b625bb8cd8636a2" cid="SYS002" type="system-boundary" name="Libro" creator="" creation-date="10/18/2026 14:53:00" />
-          <item id="dc6fed904c044dc68317733f9144f545" cid="UC007" type="use-case" name="Select Preferred Topics" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:54:06">
+          <item id="b60a384986764faba44f54a16f8a2698" cid="INC002" type="include" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:02:20" from="e29c2f7934834aeca875425c84eecdc1" to="cb31c900c01047f3a067e63e7682f35e" visibility="package">
+            <stereotypes>
+              <stereotype name="include" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="b60a384986764faba44f54a16f8a2698_include_c" type="include" creation-date="10/18/2026 15:02:20" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="dc6fed904c044dc68317733f9144f545" cid="UC007" type="use-case" name="Select Preferred Topics" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:54:06" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
           </item>
-          <item id="1751a54eaa6d4941b3d43b212618083d" cid="UC008" type="use-case" name="Validate Credentials" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:57:59">
+          <item id="1751a54eaa6d4941b3d43b212618083d" cid="UC008" type="use-case" name="Validate Credentials" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:57:59" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
           </item>
-          <item id="dafae1ce89a44a2f9844c634958fe5d3" cid="UC005" type="use-case" name="Sign In" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:53:41">
+          <item id="dafae1ce89a44a2f9844c634958fe5d3" cid="UC005" type="use-case" name="Sign In" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:53:41" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
@@ -1053,40 +1083,40 @@
           <item id="1c06b6345dfb4687bc4277a0f7f13639" cid="REL019" type="relationship" creator="" creation-date="10/18/2026 14:55:42" from="33ecc80196394ae68dfb4f17f5dc9d19" to="dafae1ce89a44a2f9844c634958fe5d3" visibility="package">
             <owned-items />
             <relation from="33ecc80196394ae68dfb4f17f5dc9d19" to="dafae1ce89a44a2f9844c634958fe5d3" derived="false">
-              <start-role id="umlar-54d20a57-8213-4c44-9c0b-478327da81ba" name="" navigability="" association-type="association" visibility="private" property-ref="bfbccbbfaf4a4ad2a180555bec870a89" />
-              <end-role id="umlar-0c41ed4f-be51-471f-b3c8-022bc83ef57d" name="" navigability="" association-type="association" visibility="private" property-ref="33a7af841fa34e53967ed2101364793a" />
-            </relation>
-          </item>
-          <item id="b0bf19f643224a76b5ee208a56fcbf62" cid="REL021" type="relationship" creator="" creation-date="10/18/2026 14:55:59" from="33ecc80196394ae68dfb4f17f5dc9d19" to="dc6fed904c044dc68317733f9144f545" visibility="package">
-            <owned-items />
-            <relation from="33ecc80196394ae68dfb4f17f5dc9d19" to="dc6fed904c044dc68317733f9144f545" derived="false">
-              <start-role id="umlar-0f663e70-1019-4692-b691-332277a081c1" name="" navigability="" association-type="association" visibility="private" property-ref="0c515f4552e0443a8f5be7ecdc04da02" />
-              <end-role id="umlar-3c48567b-b7c9-471e-ae21-0914bbd01aa1" name="" navigability="" association-type="association" visibility="private" property-ref="e8e7fe45a9a4471093cb1b3593ba7cb7" />
+              <start-role id="umlar-032d9867-c889-4f5a-85cb-7cc5b39f8933" name="" navigability="" association-type="association" visibility="private" property-ref="bfbccbbfaf4a4ad2a180555bec870a89" />
+              <end-role id="umlar-d588bde2-7f39-43ef-ac36-02fa85a4db74" name="" navigability="" association-type="association" visibility="private" property-ref="33a7af841fa34e53967ed2101364793a" />
             </relation>
           </item>
           <item id="6a3696e98e1f4bc0b422648dc1e711bf" cid="REL020" type="relationship" creator="" creation-date="10/18/2026 14:55:53" from="1c06b6345dfb4687bc4277a0f7f13639" to="e29c2f7934834aeca875425c84eecdc1" visibility="package">
             <owned-items />
             <relation from="1c06b6345dfb4687bc4277a0f7f13639" to="e29c2f7934834aeca875425c84eecdc1" derived="false">
-              <start-role id="umlar-9cf4ba16-9c37-4768-af6a-073fdc010471" name="" navigability="" association-type="association" visibility="private" property-ref="664ff59ce31e4f0fb80433c9945fc557" />
-              <end-role id="umlar-a071c8c4-0520-469c-b157-fd0110ede556" name="" navigability="" association-type="association" visibility="private" property-ref="1cd6833b2127491ab6e8420ea70e2611" />
+              <start-role id="umlar-db370d34-9aef-4e36-9dff-fd0ee1a415c8" name="" navigability="" association-type="association" visibility="private" property-ref="664ff59ce31e4f0fb80433c9945fc557" />
+              <end-role id="umlar-539f5ae8-2793-4e72-8fde-53d933ba1636" name="" navigability="" association-type="association" visibility="private" property-ref="1cd6833b2127491ab6e8420ea70e2611" />
+            </relation>
+          </item>
+          <item id="b0bf19f643224a76b5ee208a56fcbf62" cid="REL021" type="relationship" creator="" creation-date="10/18/2026 14:55:59" from="33ecc80196394ae68dfb4f17f5dc9d19" to="dc6fed904c044dc68317733f9144f545" visibility="package">
+            <owned-items />
+            <relation from="33ecc80196394ae68dfb4f17f5dc9d19" to="dc6fed904c044dc68317733f9144f545" derived="false">
+              <start-role id="umlar-38ab6fac-d20c-43dc-b947-7233ef53177a" name="" navigability="" association-type="association" visibility="private" property-ref="0c515f4552e0443a8f5be7ecdc04da02" />
+              <end-role id="umlar-0a8dce78-bcd4-4c0b-acc8-a004cc620d40" name="" navigability="" association-type="association" visibility="private" property-ref="e8e7fe45a9a4471093cb1b3593ba7cb7" />
             </relation>
           </item>
           <item id="88d698d4ce2a43b78d104e079687082a" cid="REL022" type="relationship" creator="" creation-date="10/18/2026 14:56:30" from="67bfc82614804021870cc258c034d85f" to="6a3696e98e1f4bc0b422648dc1e711bf" visibility="package">
             <owned-items />
             <relation from="67bfc82614804021870cc258c034d85f" to="6a3696e98e1f4bc0b422648dc1e711bf" derived="false">
-              <start-role id="umlar-6817a570-5f4e-4630-8d97-061cbea68a22" name="" navigability="" association-type="association" visibility="private" property-ref="77b4e8092d344b4bba4ce7730ca1e2e7" />
-              <end-role id="umlar-31414922-f6a3-404e-9e0d-27be015335a5" name="" navigability="" association-type="association" visibility="private" property-ref="67e33aa14121484bada64b8a045d00f9" />
-            </relation>
-          </item>
-          <item id="449b99e97e4144cb835eaa392e3cb647" cid="REL023" type="relationship" creator="" creation-date="10/18/2026 14:56:43" from="67bfc82614804021870cc258c034d85f" to="dafae1ce89a44a2f9844c634958fe5d3" visibility="package">
-            <owned-items />
-            <relation from="67bfc82614804021870cc258c034d85f" to="dafae1ce89a44a2f9844c634958fe5d3" derived="false">
-              <start-role id="umlar-3b44937c-5dcd-48d5-8f93-2edd1bb4b585" name="" navigability="" association-type="association" visibility="private" property-ref="f9886690603348f2bcee21f71732e193" />
-              <end-role id="umlar-71ce8731-5ffe-4b71-9971-11554caada7b" name="" navigability="" association-type="association" visibility="private" property-ref="e213ad8b8d2340909e0242bab5fd7a08" />
+              <start-role id="umlar-cc9788d4-8af8-476c-a81f-2f33c5c2ce6e" name="" navigability="" association-type="association" visibility="private" property-ref="77b4e8092d344b4bba4ce7730ca1e2e7" />
+              <end-role id="umlar-fccff7ac-b405-4ea5-8d4f-2de938fcf557" name="" navigability="" association-type="association" visibility="private" property-ref="67e33aa14121484bada64b8a045d00f9" />
             </relation>
           </item>
           <item id="difdf080579bd14f0fb5a21f894080368b1340" veid="0dba82b3f48d422b86928646b86bc37e" cid="AC002" type="actor" name="Actor1" creator="" creation-date="10/17/2026 12:13:38" visibility="undefined" />
-          <item id="cb31c900c01047f3a067e63e7682f35e" cid="UC011" type="use-case" name="Create Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:00:26">
+          <item id="449b99e97e4144cb835eaa392e3cb647" cid="REL023" type="relationship" creator="" creation-date="10/18/2026 14:56:43" from="67bfc82614804021870cc258c034d85f" to="dafae1ce89a44a2f9844c634958fe5d3" visibility="package">
+            <owned-items />
+            <relation from="67bfc82614804021870cc258c034d85f" to="dafae1ce89a44a2f9844c634958fe5d3" derived="false">
+              <start-role id="umlar-b050afa2-6994-4dfc-96c6-43b8ba20ca69" name="" navigability="" association-type="association" visibility="private" property-ref="f9886690603348f2bcee21f71732e193" />
+              <end-role id="umlar-d3dbb81e-f89f-422b-bd8e-922cbd4b75b5" name="" navigability="" association-type="association" visibility="private" property-ref="e213ad8b8d2340909e0242bab5fd7a08" />
+            </relation>
+          </item>
+          <item id="cb31c900c01047f3a067e63e7682f35e" cid="UC011" type="use-case" name="Create Account" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 15:00:26" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
@@ -1102,15 +1132,15 @@
             </stereotype-instances>
             <extend extension-point="" condition="" />
           </item>
-          <item id="2a6d8a9186cd42a7a6dec9ca8da924c6" cid="AC008" type="actor" name="Server" creator="" creation-date="10/18/2026 14:56:14" />
-          <item id="e29c2f7934834aeca875425c84eecdc1" cid="UC006" type="use-case" name="Sign Up" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:53:55">
+          <item id="2a6d8a9186cd42a7a6dec9ca8da924c6" cid="AC008" type="actor" name="Server" creator="" creation-date="10/18/2026 14:56:14" visibility="undefined" />
+          <item id="e29c2f7934834aeca875425c84eecdc1" cid="UC006" type="use-case" name="Sign Up" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:53:55" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
           </item>
-          <item id="b2c633f9f90c454cb5d31fd20b616ba6" cid="UC009" type="use-case" name="Display Login error" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:59:08">
+          <item id="b2c633f9f90c454cb5d31fd20b616ba6" cid="UC009" type="use-case" name="Display Login error" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/18/2026 14:59:08" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
@@ -1127,12 +1157,12 @@
           </item>
         </abstract-items>
         <layer id="d08e5b08be3e402bb26328aee87077f7" name="Default" visible="true" enabled="true" locked="false">
+          <item id="1fd59a2d32124fcf9f451dee8c30c471" iid="2c5b8e4ff0004dec92d15cc5d14e28a4" creation-date="10/18/2026 14:53:00" order-index="1" type="entity">
+            <layout ax="950" ay="80" awidth="510" aheight="400" x="950" y="80" width="510" height="400" expanded="950,80,510,400" collapsed="0,0,0,0" />
+          </item>
           <item id="33ecc80196394ae68dfb4f17f5dc9d19" iid="607291e566dd42b7aa7ca5ac48e042e9" creation-date="10/17/2026 12:13:38" order-index="0" type="entity">
             <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="740" ay="250" awidth="50" aheight="100" x="739" y="250" width="50" height="120" />
             <actor />
-          </item>
-          <item id="1fd59a2d32124fcf9f451dee8c30c471" iid="2c5b8e4ff0004dec92d15cc5d14e28a4" creation-date="10/18/2026 14:53:00" order-index="1" type="entity">
-            <layout ax="950" ay="80" awidth="510" aheight="400" x="950" y="80" width="510" height="400" expanded="950,80,510,400" collapsed="0,0,0,0" />
           </item>
           <item id="dafae1ce89a44a2f9844c634958fe5d3" iid="b5663cbc600349d39016fce1bd757ae6" container="1fd59a2d32124fcf9f451dee8c30c471" container-iid="2c5b8e4ff0004dec92d15cc5d14e28a4" creation-date="10/18/2026 14:53:41" order-index="2" type="entity">
             <layout ax="1040" ay="120" awidth="120" aheight="75" x="950" y="120" width="120" height="75" />
@@ -1267,26 +1297,26 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="378b22ef74c34dcaa0c1546d0453e60b" cid="ES016" type="activation-bar" name="ExecutionSpecification16" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:13:57">
+          <item id="378b22ef74c34dcaa0c1546d0453e60b" cid="ES016" type="activation-bar" name="ExecutionSpecification16" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:13:57" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="f106d5b220804674a49bb42ebf314c0c" cid="ES010" type="activation-bar" name="ExecutionSpecification10" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:08:34">
+          <item id="f106d5b220804674a49bb42ebf314c0c" cid="ES010" type="activation-bar" name="ExecutionSpecification10" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:08:34" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
-          <item id="d6f6792d1c17435aa8377e273770a8da" cid="ES007" type="activation-bar" name="ExecutionSpecification7" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 15:07:10">
+          <item id="d6f6792d1c17435aa8377e273770a8da" cid="ES007" type="activation-bar" name="ExecutionSpecification7" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 15:07:10" visibility="undefined">
             <activation-bar lifeline-ref="00bfec06e73b418a9c88e601757167c7" />
           </item>
-          <item id="e081db4f83804a06991df043d4cbac19" cid="ES002" type="activation-bar" name="ExecutionSpecification2" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:05:07">
+          <item id="e081db4f83804a06991df043d4cbac19" cid="ES002" type="activation-bar" name="ExecutionSpecification2" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:05:07" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="feae996324814d45ab520116dbecc1e0" cid="ES005" type="activation-bar" name="ExecutionSpecification5" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:06:29">
+          <item id="feae996324814d45ab520116dbecc1e0" cid="ES005" type="activation-bar" name="ExecutionSpecification5" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:06:29" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
-          <item id="3490caa3003a4c06867d5d19b22e71cf" cid="LL001" type="lifeline" name="user" creator="" creation-date="10/18/2026 15:03:48">
+          <item id="3490caa3003a4c06867d5d19b22e71cf" cid="LL001" type="lifeline" name="user" creator="" creation-date="10/18/2026 15:03:48" visibility="undefined">
             <owned-items />
             <lifeline classifier-name="User" classifier-ref="ef46dcfee6954ea7af91d8b352de24c9" selector="" is-multi-object="false" />
           </item>
-          <item id="73b49ae2d16747d7aa0af87428a575ad" cid="ES003" type="activation-bar" name="ExecutionSpecification3" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:05:46">
+          <item id="73b49ae2d16747d7aa0af87428a575ad" cid="ES003" type="activation-bar" name="ExecutionSpecification3" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:05:46" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
           <item id="bb3fb97f976443049c2139a653fb65af" cid="SM008" type="sequence-action" name="Message8" creator="" creation-date="10/18/2026 15:09:36" from="4b9cac4b6384466d861d534177742ebd" to="61f2563adea84c31828439a2a2b8ccb0" visibility="package">
@@ -1294,7 +1324,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="938152aa6bce4c7d8e06e289abfcd61e" cid="ES006" type="activation-bar" name="ExecutionSpecification6" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 15:06:29">
+          <item id="938152aa6bce4c7d8e06e289abfcd61e" cid="ES006" type="activation-bar" name="ExecutionSpecification6" owner="00bfec06e73b418a9c88e601757167c7" creator="" creation-date="10/18/2026 15:06:29" visibility="undefined">
             <activation-bar lifeline-ref="00bfec06e73b418a9c88e601757167c7" />
           </item>
           <item id="5604ab036c094c93bbda61b7939affbd" cid="SM006" type="sequence-action" name="Message6" creator="" creation-date="10/18/2026 15:08:32" from="f106d5b220804674a49bb42ebf314c0c" to="f98026d21f30446c9d164d960384062f" visibility="package">
@@ -1302,7 +1332,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="eb86f395e5044ed48a35e8fab5868756" cid="ES001" type="activation-bar" name="ExecutionSpecification1" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 15:05:07">
+          <item id="eb86f395e5044ed48a35e8fab5868756" cid="ES001" type="activation-bar" name="ExecutionSpecification1" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 15:05:07" visibility="undefined">
             <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
           </item>
           <item id="50675ebf8c6a4ab0bea73ebe40312266" cid="SM001" type="sequence-action" name="Message1" creator="" creation-date="10/18/2026 15:05:04" from="eb86f395e5044ed48a35e8fab5868756" to="e081db4f83804a06991df043d4cbac19" visibility="package">
@@ -1310,32 +1340,32 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="4b9cac4b6384466d861d534177742ebd" cid="ES013" type="activation-bar" name="ExecutionSpecification13" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:09:38">
+          <item id="4b9cac4b6384466d861d534177742ebd" cid="ES013" type="activation-bar" name="ExecutionSpecification13" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:09:38" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="00bfec06e73b418a9c88e601757167c7" cid="LL004" type="lifeline" name="db" creator="" creation-date="10/18/2026 15:04:39">
+          <item id="00bfec06e73b418a9c88e601757167c7" cid="LL004" type="lifeline" name="db" creator="" creation-date="10/18/2026 15:04:39" visibility="undefined">
             <owned-items />
             <lifeline classifier-name="Database" classifier-ref="6cd7c60bbeba48998322f2f950273872" selector="" is-multi-object="false" />
           </item>
-          <item id="f958850fd6c048f990c6606676f64440" cid="ES018" type="activation-bar" name="ExecutionSpecification18" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 15:14:22">
+          <item id="f958850fd6c048f990c6606676f64440" cid="ES018" type="activation-bar" name="ExecutionSpecification18" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 15:14:22" visibility="undefined">
             <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
           </item>
-          <item id="60603773a1604e989f3a6dc78859d1c1" cid="FR001" type="fragment" name="Credintials valid" creator="" creation-date="10/18/2026 15:14:48">
+          <item id="60603773a1604e989f3a6dc78859d1c1" cid="FR001" type="fragment" name="Credintials valid" creator="" creation-date="10/18/2026 15:14:48" visibility="undefined">
             <fragment operator="alt">
               <operands />
             </fragment>
           </item>
-          <item id="fbf8bc023e7d40c8ae82714388e4bbfc" cid="ES008" type="activation-bar" name="ExecutionSpecification8" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:07:10">
+          <item id="fbf8bc023e7d40c8ae82714388e4bbfc" cid="ES008" type="activation-bar" name="ExecutionSpecification8" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:07:10" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
-          <item id="1afc31a8952f46228cacb55240602594" cid="LL003" type="lifeline" name="server" creator="" creation-date="10/18/2026 15:04:25">
+          <item id="1afc31a8952f46228cacb55240602594" cid="LL003" type="lifeline" name="server" creator="" creation-date="10/18/2026 15:04:25" visibility="undefined">
             <owned-items />
             <lifeline classifier-name="Server" classifier-ref="590970c4d9974a61b18943f42a46ca5e" selector="" is-multi-object="false" />
           </item>
-          <item id="1368ca5dfa274c74a4360d7edc4f64fe" cid="ES017" type="activation-bar" name="ExecutionSpecification17" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:14:22">
+          <item id="1368ca5dfa274c74a4360d7edc4f64fe" cid="ES017" type="activation-bar" name="ExecutionSpecification17" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:14:22" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
-          <item id="20978c57726144f88c853b2542084c85" cid="LL002" type="lifeline" name="ui" creator="" creation-date="10/18/2026 15:04:08">
+          <item id="20978c57726144f88c853b2542084c85" cid="LL002" type="lifeline" name="ui" creator="" creation-date="10/18/2026 15:04:08" visibility="undefined">
             <owned-items />
             <lifeline classifier-name="AppUI" classifier-ref="66eb869f6df64b62b90c435fb9a41c91" selector="" is-multi-object="false" />
           </item>
@@ -1344,7 +1374,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="18f4d29e9b4b4fb092f5d7a448c88492" cid="ES004" type="activation-bar" name="ExecutionSpecification4" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:05:46">
+          <item id="18f4d29e9b4b4fb092f5d7a448c88492" cid="ES004" type="activation-bar" name="ExecutionSpecification4" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:05:46" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
           <item id="9c8d8aea9ba8454f94ce53dec403b799" cid="SM010" type="sequence-action" name="Message10" creator="" creation-date="10/18/2026 15:14:17" from="1368ca5dfa274c74a4360d7edc4f64fe" to="f958850fd6c048f990c6606676f64440" visibility="package">
@@ -1352,7 +1382,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="f98026d21f30446c9d164d960384062f" cid="ES011" type="activation-bar" name="ExecutionSpecification11" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:08:34">
+          <item id="f98026d21f30446c9d164d960384062f" cid="ES011" type="activation-bar" name="ExecutionSpecification11" owner="20978c57726144f88c853b2542084c85" creator="" creation-date="10/18/2026 15:08:34" visibility="undefined">
             <activation-bar lifeline-ref="20978c57726144f88c853b2542084c85" />
           </item>
           <item id="d99a51a04226496198334f3a61031f85" cid="SM005" type="sequence-action" name="Message5" creator="" creation-date="10/18/2026 15:07:53" from="d36f1e5f6e4d46a583f7a3331da7cc84" to="d36f1e5f6e4d46a583f7a3331da7cc84" visibility="package">
@@ -1365,7 +1395,7 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="61f2563adea84c31828439a2a2b8ccb0" cid="ES014" type="activation-bar" name="ExecutionSpecification14" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 15:09:38">
+          <item id="61f2563adea84c31828439a2a2b8ccb0" cid="ES014" type="activation-bar" name="ExecutionSpecification14" owner="3490caa3003a4c06867d5d19b22e71cf" creator="" creation-date="10/18/2026 15:09:38" visibility="undefined">
             <activation-bar lifeline-ref="3490caa3003a4c06867d5d19b22e71cf" />
           </item>
           <item id="317bafa829dd4533b46fd53191ef3216" cid="SM004" type="sequence-action" name="Message4" creator="" creation-date="10/18/2026 15:07:06" from="d6f6792d1c17435aa8377e273770a8da" to="fbf8bc023e7d40c8ae82714388e4bbfc" visibility="package">
@@ -1373,10 +1403,10 @@
               <parameters />
             </sequence-action>
           </item>
-          <item id="d36f1e5f6e4d46a583f7a3331da7cc84" cid="ES009" type="activation-bar" name="ExecutionSpecification9" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:07:53">
+          <item id="d36f1e5f6e4d46a583f7a3331da7cc84" cid="ES009" type="activation-bar" name="ExecutionSpecification9" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:07:53" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
-          <item id="857dde7e935d4536b12fc13b363d43c4" cid="ES015" type="activation-bar" name="ExecutionSpecification15" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:13:57">
+          <item id="857dde7e935d4536b12fc13b363d43c4" cid="ES015" type="activation-bar" name="ExecutionSpecification15" owner="1afc31a8952f46228cacb55240602594" creator="" creation-date="10/18/2026 15:13:57" visibility="undefined">
             <activation-bar lifeline-ref="1afc31a8952f46228cacb55240602594" />
           </item>
         </abstract-items>
@@ -1626,8 +1656,8 @@
           <item id="ad2e77ee5a9a435dbd0d1dd49c149745" cid="REL011" type="relationship" creator="" creation-date="10/17/2026 19:27:37" from="fc8112091dea4c0da18c9e8475ab41e7" to="35d42b55a49a467bb26723e5898872b7" visibility="package">
             <owned-items />
             <relation from="fc8112091dea4c0da18c9e8475ab41e7" to="35d42b55a49a467bb26723e5898872b7" derived="false">
-              <start-role id="umlar-18f80a9f-97b6-42d2-a97a-65292089e217" name="" navigability="" association-type="association" visibility="private" property-ref="7d2325f589fc49489198b9a48c9b60e6" />
-              <end-role id="umlar-9ef2a95f-228d-40bd-8269-3fb965f76281" name="" navigability="" association-type="association" visibility="private" property-ref="a81f8693f4714810a9a1ca0a65f12851" />
+              <start-role id="umlar-8d08323f-b44a-4ef4-b6a4-20fec79a8119" name="" navigability="" association-type="association" visibility="private" property-ref="7d2325f589fc49489198b9a48c9b60e6" />
+              <end-role id="umlar-33691eec-f63b-4ba7-b02e-ea6bc5eed1e1" name="" navigability="" association-type="association" visibility="private" property-ref="a81f8693f4714810a9a1ca0a65f12851" />
             </relation>
           </item>
           <item id="53d129e15cf44a888a74f5688b9860f2" cid="EX001" type="extend" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/17/2026 19:28:56" from="c44c7cf3e75a4ec487e2f31ba502b61a" to="ba78311f44ce42d89ed50f079a52f8ee" visibility="package">
@@ -1643,8 +1673,8 @@
           <item id="fc8112091dea4c0da18c9e8475ab41e7" cid="REL007" type="relationship" creator="" creation-date="10/17/2026 19:26:45" from="33ecc80196394ae68dfb4f17f5dc9d19" to="c44c7cf3e75a4ec487e2f31ba502b61a" visibility="package">
             <owned-items />
             <relation from="33ecc80196394ae68dfb4f17f5dc9d19" to="c44c7cf3e75a4ec487e2f31ba502b61a" derived="false">
-              <start-role id="umlar-8d9918dc-e950-45b4-8606-07af908d1554" name="" navigability="" association-type="association" visibility="private" property-ref="04bf861670b343aaa560a0f942f2a917" />
-              <end-role id="umlar-16d0386f-a615-41f8-ab90-7eec36f1f01b" name="" navigability="" association-type="association" visibility="private" property-ref="0a5b3cb542384a15b67593fc9a066170" />
+              <start-role id="umlar-f2c4abe4-9c3a-4709-87c0-8761bfebc1dd" name="" navigability="" association-type="association" visibility="private" property-ref="04bf861670b343aaa560a0f942f2a917" />
+              <end-role id="umlar-e5dad294-475d-42de-961b-8bd27b198571" name="" navigability="" association-type="association" visibility="private" property-ref="0a5b3cb542384a15b67593fc9a066170" />
             </relation>
           </item>
           <item id="ba78311f44ce42d89ed50f079a52f8ee" cid="UC001" type="use-case" name="Search Material" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/17/2026 19:21:02" visibility="undefined">
@@ -1659,15 +1689,15 @@
           <item id="621e900ac79744a3a989a28e9eef8b91" cid="REL006" type="relationship" creator="" creation-date="10/17/2026 19:26:32" from="33ecc80196394ae68dfb4f17f5dc9d19" to="ba78311f44ce42d89ed50f079a52f8ee" visibility="package">
             <owned-items />
             <relation from="33ecc80196394ae68dfb4f17f5dc9d19" to="ba78311f44ce42d89ed50f079a52f8ee" derived="false">
-              <start-role id="umlar-67b63619-2256-49c5-a1fe-03813317000c" name="" navigability="" association-type="association" visibility="private" property-ref="7fd2f853155c4e428ba1f20feb433f18" />
-              <end-role id="umlar-bfb84400-79fc-446a-9ef0-56a5db57a438" name="" navigability="" association-type="association" visibility="private" property-ref="21d0bd58b5e0404c9b28beaf2fd677df" />
+              <start-role id="umlar-140f49b3-7814-4e8c-a22b-1e538e30ae5d" name="" navigability="" association-type="association" visibility="private" property-ref="7fd2f853155c4e428ba1f20feb433f18" />
+              <end-role id="umlar-d6c1a050-70ef-48c5-a1b9-67a7ab86af0f" name="" navigability="" association-type="association" visibility="private" property-ref="21d0bd58b5e0404c9b28beaf2fd677df" />
             </relation>
           </item>
           <item id="47e7f780b11f4a4db1b4a7920498f39e" cid="REL018" type="relationship" creator="" creation-date="10/17/2026 20:52:12" from="67bfc82614804021870cc258c034d85f" to="ba78311f44ce42d89ed50f079a52f8ee" visibility="package">
             <owned-items />
             <relation from="67bfc82614804021870cc258c034d85f" to="ba78311f44ce42d89ed50f079a52f8ee" derived="false">
-              <start-role id="umlar-d063cbdf-e966-4482-a09e-7739b0b4dd44" name="" navigability="" association-type="association" visibility="private" property-ref="7159cfdd4c36431380f14c1f9d972c66" />
-              <end-role id="umlar-cd996d36-2347-4d2c-89a5-283f9476ca54" name="" navigability="" association-type="association" visibility="private" property-ref="62680f95cd5b416c86d9e58c8b105449" />
+              <start-role id="umlar-49ffeaa4-9c1a-4c67-abd8-335ac7a8e3a0" name="" navigability="" association-type="association" visibility="private" property-ref="7159cfdd4c36431380f14c1f9d972c66" />
+              <end-role id="umlar-42a1bc00-67df-4fe1-9679-16ece66cd720" name="" navigability="" association-type="association" visibility="private" property-ref="62680f95cd5b416c86d9e58c8b105449" />
             </relation>
           </item>
           <item id="1fd59a2d32124fcf9f451dee8c30c471" cid="SYS001" type="system-boundary" name="Libro" creator="" creation-date="10/17/2026 19:20:37">
@@ -1676,8 +1706,8 @@
           <item id="c350856ae98d436dbd1d3a3008c8de00" cid="REL016" type="relationship" creator="" creation-date="10/17/2026 19:28:28" from="450ba7fe7c61481facca7d524e0faef8" to="33ecc80196394ae68dfb4f17f5dc9d19" visibility="package">
             <owned-items />
             <relation from="450ba7fe7c61481facca7d524e0faef8" to="33ecc80196394ae68dfb4f17f5dc9d19" derived="false">
-              <start-role id="umlar-9a96c78f-338c-4ffb-a08a-cdb3c2ec58a4" name="" navigability="" association-type="association" visibility="private" property-ref="d38e25dd956c47d792365dafe3c6cdc9" />
-              <end-role id="umlar-834c1da5-1fd4-4c4b-a1c8-a9bd82cb3359" name="" navigability="" association-type="association" visibility="private" property-ref="d8516acc386d4b009fe306a0b858ceb6" />
+              <start-role id="umlar-6b9428ea-3891-4328-81b5-05f7bc5d4349" name="" navigability="" association-type="association" visibility="private" property-ref="d38e25dd956c47d792365dafe3c6cdc9" />
+              <end-role id="umlar-e2ee4391-c0ec-4b90-9427-998d7e6bff87" name="" navigability="" association-type="association" visibility="private" property-ref="d8516acc386d4b009fe306a0b858ceb6" />
             </relation>
           </item>
           <item id="450ba7fe7c61481facca7d524e0faef8" cid="UC004" type="use-case" name="Bookmark material" owner="1fd59a2d32124fcf9f451dee8c30c471" creator="" creation-date="10/17/2026 19:22:36" visibility="undefined">
@@ -1792,12 +1822,222 @@
           </authors>
           <description />
           <creation-date>10/17/2026 12:13:14</creation-date>
-          <change-date>10/17/2026 12:13:14</change-date>
+          <change-date>10/18/2026 19:37:48</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
-        <abstract-items />
-        <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false" />
+        <abstract-items>
+          <item id="dc7420bae2d64ce59542e1d4dd45a0dd" cid="LL014" type="lifeline" name="db" creator="" creation-date="10/18/2026 19:25:19">
+            <owned-items />
+            <lifeline classifier-name="Database" classifier-ref="6cd7c60bbeba48998322f2f950273872" selector="" is-multi-object="false" />
+          </item>
+          <item id="5cdaf3433e2044ef802b6697a470c152" cid="ES047" type="activation-bar" name="ExecutionSpecification46" owner="9664720414ec441ca80f557cb0117de2" creator="" creation-date="10/18/2026 19:26:12">
+            <activation-bar lifeline-ref="9664720414ec441ca80f557cb0117de2" />
+          </item>
+          <item id="ca05a6e3155b48d79de58a99bb75a943" cid="AC010" type="actor" name="User" creator="" creation-date="10/18/2026 19:24:13">
+            <owned-items />
+          </item>
+          <item id="1be59b9f31564563a743d293dd5b1364" cid="SM027" type="sequence-action" name="Message27" creator="" creation-date="10/18/2026 19:32:19" from="0747701ac6764b71b988588002502c13" to="1b7548d046324e0c8ee4cd0fd9d0b951" visibility="package">
+            <sequence-action type="call" message="1.Enter search query/select filters" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="653bead0b631444ca6b436d6bd19bd56" cid="SM031" type="sequence-action" name="Message31" creator="" creation-date="10/18/2026 19:34:53" from="d16bc0da89ea4270b1db8a8573ef7537" to="5cdaf3433e2044ef802b6697a470c152" visibility="package">
+            <sequence-action type="reply" message="4.Matching materials" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="a4ff237131ac497f95180da8c039e691" cid="SM033" type="sequence-action" name="Message33" creator="" creation-date="10/18/2026 19:35:38" from="5cdaf3433e2044ef802b6697a470c152" to="1b7548d046324e0c8ee4cd0fd9d0b951" visibility="package">
+            <sequence-action type="reply" message="5.Return results or empty list" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="6c9f76dc4ab947b89f063bbb5c551bef" cid="FR004" type="fragment" name="Fragment4" creator="" creation-date="10/18/2026 19:31:15">
+            <fragment operator="alt">
+              <operands />
+            </fragment>
+          </item>
+          <item id="ab91834a347f41b6917c2872ade39b3d" cid="SM028" type="sequence-action" name="Message28" creator="" creation-date="10/18/2026 19:32:56" from="1b7548d046324e0c8ee4cd0fd9d0b951" to="5cdaf3433e2044ef802b6697a470c152" visibility="package">
+            <sequence-action type="call" message="2.Search request(query,filters)" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="0747701ac6764b71b988588002502c13" cid="ES045" type="activation-bar" name="ExecutionSpecification44" owner="ca05a6e3155b48d79de58a99bb75a943" creator="" creation-date="10/18/2026 19:25:40" />
+          <item id="1b7548d046324e0c8ee4cd0fd9d0b951" cid="ES046" type="activation-bar" name="ExecutionSpecification45" owner="b2f98b30e01c4d5d92d0305664d8b2c7" creator="" creation-date="10/18/2026 19:25:49">
+            <activation-bar lifeline-ref="b2f98b30e01c4d5d92d0305664d8b2c7" />
+          </item>
+          <item id="9664720414ec441ca80f557cb0117de2" cid="LL011" type="lifeline" name="server" creator="" creation-date="10/18/2026 19:24:52">
+            <owned-items />
+            <lifeline classifier-name="Server" classifier-ref="590970c4d9974a61b18943f42a46ca5e" selector="" is-multi-object="false" />
+          </item>
+          <item id="7e67e0c4f18c446cbbd5d4738bbc0e9c" cid="SM034" type="sequence-action" name="Message34" creator="" creation-date="10/18/2026 19:36:58" from="8d55a3cac3f54e62af4a3d5ad9134231" to="72d8df91c7f941838bc5851ba6f84341" visibility="package">
+            <sequence-action type="reply" message="6.Display results(download materials at top)" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="37f3884e23ff4290a3b44081f1763fa0" cid="SM035" type="sequence-action" name="Message35" creator="" creation-date="10/18/2026 19:37:45" from="f5be1d7ef95e417ea95ed2767da1dfc7" to="a9d5047a8ed84c3a88c6505ebfa6ca97" visibility="package">
+            <sequence-action type="reply" message="7.Show message &quot;No material found&quot;" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="8d55a3cac3f54e62af4a3d5ad9134231" cid="ES049" type="activation-bar" name="ExecutionSpecification48" owner="b2f98b30e01c4d5d92d0305664d8b2c7" creator="" creation-date="10/18/2026 19:26:42">
+            <activation-bar lifeline-ref="b2f98b30e01c4d5d92d0305664d8b2c7" />
+          </item>
+          <item id="1414130311484fe3afee175ad0c6cd00" cid="SM030" type="sequence-action" name="Message30" creator="" creation-date="10/18/2026 19:33:52" from="5cdaf3433e2044ef802b6697a470c152" to="d16bc0da89ea4270b1db8a8573ef7537" visibility="package">
+            <sequence-action type="call" message="3.Query matching materials" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="d16bc0da89ea4270b1db8a8573ef7537" cid="ES048" type="activation-bar" name="ExecutionSpecification47" owner="dc7420bae2d64ce59542e1d4dd45a0dd" creator="" creation-date="10/18/2026 19:26:33">
+            <activation-bar lifeline-ref="dc7420bae2d64ce59542e1d4dd45a0dd" />
+          </item>
+          <item id="72d8df91c7f941838bc5851ba6f84341" cid="ES050" type="activation-bar" name="ExecutionSpecification49" owner="ca05a6e3155b48d79de58a99bb75a943" creator="" creation-date="10/18/2026 19:26:48" />
+          <item id="f5be1d7ef95e417ea95ed2767da1dfc7" cid="ES051" type="activation-bar" name="ExecutionSpecification50" owner="b2f98b30e01c4d5d92d0305664d8b2c7" creator="" creation-date="10/18/2026 19:30:06">
+            <activation-bar lifeline-ref="b2f98b30e01c4d5d92d0305664d8b2c7" />
+          </item>
+          <item id="b2f98b30e01c4d5d92d0305664d8b2c7" cid="LL010" type="lifeline" name="ui" creator="" creation-date="10/18/2026 19:24:33">
+            <owned-items />
+            <lifeline classifier-name="AppUI" classifier-ref="66eb869f6df64b62b90c435fb9a41c91" selector="" is-multi-object="false" />
+          </item>
+          <item id="a9d5047a8ed84c3a88c6505ebfa6ca97" cid="ES052" type="activation-bar" name="ExecutionSpecification51" owner="ca05a6e3155b48d79de58a99bb75a943" creator="" creation-date="10/18/2026 19:30:41" />
+        </abstract-items>
+        <layer id="ec06f847ab064756b753db410bfd556f" name="Default" visible="true" enabled="true" locked="false">
+          <item id="ca05a6e3155b48d79de58a99bb75a943" iid="406aec1d82114f31be6fdc97d564da0f" creation-date="10/18/2026 19:24:13" order-index="0" type="lifeline">
+            <layout ax="158" ay="38" awidth="140" aheight="585" x="158" y="38" width="140" height="585" expanded="158,38,140,585" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="b2f98b30e01c4d5d92d0305664d8b2c7" iid="cbeeffc87b8f412bbb71e6d3c4669744" creation-date="10/18/2026 19:24:33" order-index="1" type="lifeline">
+            <layout ax="378" ay="38" awidth="140" aheight="585" x="378" y="38" width="140" height="585" expanded="378,38,140,585" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="8d55a3cac3f54e62af4a3d5ad9134231" iid="27e69f28e6654600a1553e54ba1886a1" container="b2f98b30e01c4d5d92d0305664d8b2c7" container-iid="cbeeffc87b8f412bbb71e6d3c4669744" creation-date="10/18/2026 19:26:42" order-index="8" type="entity">
+            <layout ax="438" ay="375" awidth="20" aheight="50" x="438" y="375" width="20" height="50" expanded="438,375,20,50" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="f5be1d7ef95e417ea95ed2767da1dfc7" iid="8ee7c5ffe37d4a7099e75273beead36c" container="b2f98b30e01c4d5d92d0305664d8b2c7" container-iid="cbeeffc87b8f412bbb71e6d3c4669744" creation-date="10/18/2026 19:30:06" order-index="10" type="entity">
+            <layout ax="438" ay="509" awidth="20" aheight="54" x="438" y="509" width="20" height="54" expanded="438,509,20,54" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="1b7548d046324e0c8ee4cd0fd9d0b951" iid="93c56c8e7c514e06a11d2ec8d55a8c72" container="b2f98b30e01c4d5d92d0305664d8b2c7" container-iid="cbeeffc87b8f412bbb71e6d3c4669744" creation-date="10/18/2026 19:25:49" order-index="5" type="entity">
+            <layout ax="438" ay="202" awidth="20" aheight="113" x="438" y="202" width="20" height="113" expanded="438,202,20,113" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="0747701ac6764b71b988588002502c13" iid="dbe871eb44cb40fabaa33535c7f4f85a" container="ca05a6e3155b48d79de58a99bb75a943" container-iid="406aec1d82114f31be6fdc97d564da0f" creation-date="10/18/2026 19:25:40" order-index="4" type="entity">
+            <layout ax="218" ay="200" awidth="20" aheight="50" x="218" y="200" width="20" height="50" expanded="218,200,20,50" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="a9d5047a8ed84c3a88c6505ebfa6ca97" iid="db08dfe29c014b80913b7b0cfe21e681" container="ca05a6e3155b48d79de58a99bb75a943" container-iid="406aec1d82114f31be6fdc97d564da0f" creation-date="10/18/2026 19:30:41" order-index="11" type="entity">
+            <layout ax="218" ay="513" awidth="20" aheight="50" x="218" y="513" width="20" height="50" expanded="218,513,20,50" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="72d8df91c7f941838bc5851ba6f84341" iid="db3c68a163c54a1497edc6f7f7bfed52" container="ca05a6e3155b48d79de58a99bb75a943" container-iid="406aec1d82114f31be6fdc97d564da0f" creation-date="10/18/2026 19:26:48" order-index="9" type="entity">
+            <layout ax="218" ay="381" awidth="20" aheight="44" x="218" y="381" width="20" height="44" expanded="218,381,20,44" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="9664720414ec441ca80f557cb0117de2" iid="41d9526777ac4bd3ad2f494779cfbaf7" creation-date="10/18/2026 19:24:52" order-index="2" type="lifeline">
+            <layout ax="586" ay="38" awidth="140" aheight="585" x="586" y="33" width="140" height="585" expanded="586,38,140,585" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="dc7420bae2d64ce59542e1d4dd45a0dd" iid="d0069ca8cf7244b986a902aac151f2a1" creation-date="10/18/2026 19:25:19" order-index="3" type="lifeline">
+            <layout ax="846" ay="38" awidth="140" aheight="585" x="846" y="31" width="140" height="585" expanded="846,38,140,585" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="d16bc0da89ea4270b1db8a8573ef7537" iid="437f4ebdf5e7479b9bacb094a5cc3c4f" container="dc7420bae2d64ce59542e1d4dd45a0dd" container-iid="d0069ca8cf7244b986a902aac151f2a1" creation-date="10/18/2026 19:26:33" order-index="7" type="entity">
+            <layout ax="906" ay="237" awidth="20" aheight="78" x="906" y="237" width="20" height="78" expanded="906,237,20,78" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="5cdaf3433e2044ef802b6697a470c152" iid="b893b7798f354e76a8bcde74fc7734b3" container="9664720414ec441ca80f557cb0117de2" container-iid="41d9526777ac4bd3ad2f494779cfbaf7" creation-date="10/18/2026 19:26:12" order-index="6" type="entity">
+            <layout ax="646" ay="200" awidth="20" aheight="113" x="646" y="200" width="20" height="113" expanded="646,200,20,113" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="6c9f76dc4ab947b89f063bbb5c551bef" iid="1527e4cef53c43ca8ef07e2105f9271a" creation-date="10/18/2026 19:31:15" order-index="12" type="entity">
+            <layout ax="188" ay="343" awidth="827" aheight="280" x="188" y="343" width="827" height="280" expanded="188,343,827,280" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="1be59b9f31564563a743d293dd5b1364" iid="176616d767da47299d252bb059992ea4" creation-date="10/18/2026 19:32:19" order-index="13" type="relation">
+            <layout message-x="334" message-y="198" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="238" y1="224" x2="438" y2="224" start-border-pos="0.37" end-border-pos="0.9513274336283186" start-local-pos="24" end-local-pos="22" name-position="-4,-26">
+              <points>
+                <point x="238" y="224" />
+                <point x="438" y="224" />
+              </points>
+            </layout>
+            <relation from="0747701ac6764b71b988588002502c13" from-iid="dbe871eb44cb40fabaa33535c7f4f85a" to="1b7548d046324e0c8ee4cd0fd9d0b951" to-iid="93c56c8e7c514e06a11d2ec8d55a8c72" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="ab91834a347f41b6917c2872ade39b3d" iid="5c10248a74544569899e2684ba2eba20" creation-date="10/18/2026 19:32:56" order-index="14" type="relation">
+            <layout message-x="556" message-y="214" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="458" y1="242" x2="646" y2="242" start-border-pos="0.33849557522123896" end-border-pos="0.9070796460176991" start-local-pos="40" end-local-pos="42" name-position="4,-28">
+              <points>
+                <point x="458" y="242" />
+                <point x="646" y="242" />
+              </points>
+            </layout>
+            <relation from="1b7548d046324e0c8ee4cd0fd9d0b951" from-iid="93c56c8e7c514e06a11d2ec8d55a8c72" to="5cdaf3433e2044ef802b6697a470c152" to-iid="b893b7798f354e76a8bcde74fc7734b3" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="1414130311484fe3afee175ad0c6cd00" iid="1d5a3b659878423db439c95c7c123921" creation-date="10/18/2026 19:33:52" order-index="15" type="relation">
+            <layout message-x="786" message-y="244" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="666" y1="259" x2="906" y2="259" start-border-pos="0.38053097345132747" end-border-pos="0.9294871794871795" start-local-pos="59" end-local-pos="22" name-position="0,-15">
+              <points>
+                <point x="666" y="259" />
+                <point x="906" y="259" />
+              </points>
+            </layout>
+            <relation from="5cdaf3433e2044ef802b6697a470c152" from-iid="b893b7798f354e76a8bcde74fc7734b3" to="d16bc0da89ea4270b1db8a8573ef7537" to-iid="437f4ebdf5e7479b9bacb094a5cc3c4f" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="653bead0b631444ca6b436d6bd19bd56" iid="f787c13431dc4ad5bae03a13e1403182" creation-date="10/18/2026 19:34:53" order-index="16" type="relation">
+            <layout message-x="786" message-y="323" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="906" y1="303" x2="666" y2="303" start-border-pos="0.7884615384615384" end-border-pos="0.47787610619469023" start-local-pos="66" end-local-pos="103" name-position="0,20">
+              <points>
+                <point x="906" y="303" />
+                <point x="666" y="303" />
+              </points>
+            </layout>
+            <relation from="d16bc0da89ea4270b1db8a8573ef7537" from-iid="437f4ebdf5e7479b9bacb094a5cc3c4f" to="5cdaf3433e2044ef802b6697a470c152" to-iid="b893b7798f354e76a8bcde74fc7734b3" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="a4ff237131ac497f95180da8c039e691" iid="6a003a926c954407b0a0c855d3f2b02d" creation-date="10/18/2026 19:35:38" order-index="17" type="relation">
+            <layout message-x="550.5" message-y="323" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="646" y1="305" x2="458" y2="305" start-border-pos="0.7676991150442478" end-border-pos="0.47787610619469023" start-local-pos="105" end-local-pos="103" name-position="-1.5,18">
+              <points>
+                <point x="646" y="305" />
+                <point x="458" y="305" />
+              </points>
+            </layout>
+            <relation from="5cdaf3433e2044ef802b6697a470c152" from-iid="b893b7798f354e76a8bcde74fc7734b3" to="1b7548d046324e0c8ee4cd0fd9d0b951" to-iid="93c56c8e7c514e06a11d2ec8d55a8c72" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="7e67e0c4f18c446cbbd5d4738bbc0e9c" iid="f58602f0a2b04352baeaca152030e60a" creation-date="10/18/2026 19:36:58" order-index="18" type="relation">
+            <layout message-x="343.5" message-y="415.82617" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="438" y1="381" x2="238" y2="381" start-border-pos="0.97" end-border-pos="0.251" start-local-pos="6" end-local-pos="0" name-position="5.5,34.82617">
+              <points>
+                <point x="438" y="381" />
+                <point x="238" y="381" />
+              </points>
+            </layout>
+            <relation from="8d55a3cac3f54e62af4a3d5ad9134231" from-iid="27e69f28e6654600a1553e54ba1886a1" to="72d8df91c7f941838bc5851ba6f84341" to-iid="db3c68a163c54a1497edc6f7f7bfed52" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="37f3884e23ff4290a3b44081f1763fa0" iid="f1853a43bd744862b63681b746fc8ffb" creation-date="10/18/2026 19:37:45" order-index="19" type="relation">
+            <layout message-x="338" message-y="558" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="438" y1="538" x2="238" y2="538" start-border-pos="0.8657407407407407" end-border-pos="0.375" start-local-pos="29" end-local-pos="25" name-position="0,20">
+              <points>
+                <point x="438" y="538" />
+                <point x="238" y="538" />
+              </points>
+            </layout>
+            <relation from="f5be1d7ef95e417ea95ed2767da1dfc7" from-iid="8ee7c5ffe37d4a7099e75273beead36c" to="a9d5047a8ed84c3a88c6505ebfa6ca97" to-iid="db08dfe29c014b80913b7b0cfe21e681" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+        </layer>
       </diagram>
     </model>
     <model id="p07835ed73e40452690a2a63e826bb07d_202669881" name="Download &amp; Material Actions" namespace="" order-index="0">
